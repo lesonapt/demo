@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="laslas" />
+
+	<title>Jquery upload</title>
+</head>
+
+<body>
+
+<input id="fileupload" type="file" name="files[]" data-url="server.php" multiple>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.ui.widget.js"></script>
+<script src="jquery.iframe-transport.js"></script>
+<script src="jquery.fileupload.js"></script>
+<script>
+$(function () {
+    $('#fileupload').fileupload({
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo(document.body);
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
