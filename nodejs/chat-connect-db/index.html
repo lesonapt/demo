@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GallerySoft.info" />
+    
+	<title>Untitled 1</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+      <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+      <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+
+      
+      var socket = io.connect('http://localhost:3000');
+        
+      function sendchat() {
+        var msg = $('#msg');
+        socket.emit('send-msg', msg.val()); 
+      }
+        
+      socket.on('new-msg', function(data) {
+        var chattext = $('.chattext');
+        chattext.append(data+'</br>');
+        console.log(data);
+      });
+    
+      
+      
+      
+    </script>
+</head>
+
+<body>
+    <div class="chattext" style="border: 1px solid #ddd; height:200px; overflow: auto; width: 140px;"></div>
+
+        <input type="text" id="msg" />
+        <button onclick="sendchat();">Send messege</button>
+
+
+
+</body>
+</html>

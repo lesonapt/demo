@@ -1,0 +1,18 @@
+<html>
+<head>
+
+	<script src="http://localhost:9999/socket.io/socket.io.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+	  var socket = io.connect('http://localhost:9999');
+	  
+	  socket.on('news', function (data) {
+		$('#me').html(data);
+		socket.emit('my other event', { my: 'data' });
+	  });
+</script>
+</head>
+<body>
+	<div id="me">loading...</div>
+</body>
+</html>

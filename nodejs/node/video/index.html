@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GallerySoft.info" />
+    
+	<title>Untitled 1</title>
+
+    <style type="text/css">
+		html {
+			/*
+            background: #111111;
+			height: 100%;
+			background: linear-gradient( #333, #000);
+            */
+		}
+		canvas {
+			display: none;
+		}
+		video, img, #startbutton {
+			display: block;
+			float: left;
+			border: 10px solid red;
+			border-radius: 10px;
+		}
+		#container {
+			overflow: hidden;
+			width: 880px;
+			margin: 20px auto;
+		}
+	</style>
+</head>
+<body>
+   
+    <h1>video call</h1>
+    <div id="container">
+		<video id="video"></video>
+		<canvas id="canvas"></canvas>
+	</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:3000');
+        
+        $( function() {    
+              var streaming = false,
+              video        = document.querySelector('#video'),
+              canvas       = document.querySelector('#canvas'),
+              width = 320,
+              height = 0;
+        
+          navigator.getMedia = ( navigator.getUserMedia || 
+                                 navigator.webkitGetUserMedia ||
+                                 navigator.mozGetUserMedia ||
+                                 navigator.msGetUserMedia);
+        
+          navigator.getMedia(
+            { 
+              video: true, 
+              audio: false 
+            },
+            function(stream) {
+              if (navigator.mozGetUserMedia) { 
+                video.mozSrcObject = stream;
+                console.log('1');
+              } else {
+                console.log('2');
+                var vendorURL = window.URL || window.webkitURL;
+                video.src = vendorURL.createObjectURL(stream);
+              }
+              video.play();
+            },
+            function(err) {
+              console.log("An error occured! " + err);
+            }
+          );
+            
+        });
+      
+    </script>
+</body>
+</html>
