@@ -89,6 +89,40 @@
         
     </style>
     <script type="text/javascript">
+        ( function($){
+             $.vari = "$.vari-1";
+             $.fn.vari = "$.fn.vari-2";
+             //$.fn is the object we add our custom functions to
+            $.fn.DoSomethingLocal = function( las ){
+                alert( las );
+                return this.each(function()
+                {
+                    alert(this.vari); // would output `undefined`
+                    alert($(this).vari); // would output `$.fn.vari`
+                });
+            };
+        })(jQuery);
+      
+        // $ is the main jQuery object, we can attach a global function to it
+        $.DoSomethingGlobal = function()
+        {
+             //$.variq  = 'asd';
+             alert("Do Something Globally, where `this.vari` = " + this.vari);
+        };
+        
+    
+        $( function() {
+            $.DoSomethingGlobal();
+        });
+        //$(document).ready(function(){
+//            $(".div-radio").DoSomethingLocal( 1);
+//            //$.DoSomethingGlobal();
+//            //$(".div-radio").DoSomethingGlobal();
+//        });
+                
+        
+        
+        
         $( function() {
             init();
         });
@@ -125,6 +159,11 @@
 </style>
 <body>
 
+   <div>
+        <div style="background: red; width: 200px; float: left; margin-left: -100px; position: relative;">asds</div>
+        <div style="background: blue; width: 200px; float: left; position: relative;">asds</div>
+        <div class="clr"></div>
+   </div>
    
     <div class="form-group">
 	        	<input type="text" value="" placeholder="Inactive" class="form-control">
