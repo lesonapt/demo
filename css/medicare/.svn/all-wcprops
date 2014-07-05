@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/medicare/!svn/ver/20/
+END
+.buildpath
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/medicare/!svn/ver/12/.buildpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/medicare/!svn/ver/12/.project
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/medicare/!svn/ver/12/index.php
+END
