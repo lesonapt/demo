@@ -1,0 +1,163 @@
+<section>
+   <div ng-show="formConfirmShow" class="div-popup div-confirm-popup"> 
+        <div class="row body">
+            <label class="text-warning ">Bạn có muốn xóa không ?</label>
+        </div>
+        <div class="row footer">
+           <div class="col-md-12">
+                <div class="pull-right">
+                    <button ng-click="spend_del_confirm(false)"  class="btn btn-default">Không</button>
+                    <button ng-click="spend_del_confirm(true)"  class="btn btn-primary ">Có</button>
+                </div> 
+           </div>  
+        </div>
+      
+   </div>
+   
+   <div ng-show="formAddShow" class="div-popup div-add-popup" >       
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 ng-show="act == 'add' " class="text-center">Thêm mới</h2>
+                <h2 ng-show="act == 'edit' " class="text-center">Cập nhật thông tin</h2>
+                
+                <form class="form-horizontal" role="form" name="AddForm" >         
+                 <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Ngày</span>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="input-group">
+                          <input ng-model="date" name="createDate" type="text" class="form-control input-sm" jqdatepicker />
+                          <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                          </span>                      
+                        </div>
+                         <small ng-show="error.date" class="text-danger">Ngày tạo không lớn hơn ngày hiện tại</small>
+                    </div>
+                  </div>
+                    
+                  <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Tên chi tiêu</span>
+                    <div class="col-md-9 col-sm-9">
+                      <input class="form-control input-sm" type="text" ng-model="spendAttr.name" required/>
+                    </div>
+                  </div>  
+                  
+                  <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Số tiền</span>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"><div id="slider-vertical"></div></div>                            
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding: 0px;">
+                                <input class="form-control" ng-model="spendAttr.money" ng-change="pushMoney()" id="spmoney"  name="spmoney" required >
+                            </div>
+                        </div>
+                        <small ng-show="error.money" class="text-danger">Số tiền từ 1 - 1000 Vnd</small>
+                    </div>
+                  </div>  
+                
+                 <div class="form-group">
+                        <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Người chi</span>
+                        <div class="col-md-9 col-sm-9">
+                          <select name="usertags" class="form-control input-sm" ng-model="member_spend" ng-options="r.id as r.full_name for r in root_room_members" ></select>
+                        </div>
+                 </div> 
+              
+                <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Người sử dụng</span>
+                    <div class="col-md-9 col-sm-9">
+                        <small ng-show="error.tags" class="text-danger">Lựa chọn ít nhất 1 người</small>
+                        <div  style="height: 80px;overflow: auto;">
+                            <label ng-repeat="member in members">
+                                <small class="badge"><input  ng-model="member.tag"  type="checkbox"  />{{member.name || member.name}}</small>&nbsp;
+                            </label>
+                        </div>
+                    </div> 
+                </div> 
+                
+                 <div class="row modal-footer" style="padding-top: 15px;">
+                   <div class="col-md-5 col-sm-5 col-lg-5 col-xs-5"><a ng-show="act == 'edit'" ng-click="del_spend()" href="#">Xóa</a></div>
+                   <div class="col-md-7 col-sm-7 col-lg-7 col-xs-7">
+                        <div class="pull-right">
+                            <button ng-show="act == 'add'" ng-click="add_spend()" class="btn btn-primary ">Thêm</button>&nbsp;
+                        </div> 
+                        <div class="pull-right">
+                            &nbsp;<button ng-show="act == 'edit'" ng-click="update_spend()" class="btn btn-primary ">Xong</button>
+                        </div> 
+                         <div class="pull-right">                         
+                            &nbsp;<button ng-click="popup_close('formAddShow', 1)"  class="btn btn-default">Hủy bỏ</button>
+                        </div> 
+                        <div class="clearfix"></div>
+                   </div>  
+                </div>
+                
+              </form>          
+            </div>
+        </div>
+        
+       
+    </div>     
+     
+               
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">    
+          <div id="calendar" class="fc">
+            <table style="width:100%" class="fc-header">
+                <tbody>
+                    <tr>
+                        <td class="fc-header-left"></td>
+                        <td class="fc-header-center">
+                            <span ng-click="cld_change_month(-1)" class="fc-button fc-button-prev fc-state-default fc-corner-left">
+                                <span class="fc-button-inner">
+                                    <span class="fc-button-content" >&nbsp;◄&nbsp;</span>
+                                    <span class="fc-button-effect"><span></span></span>
+                                </span>
+                            </span>
+                            <span class="fc-header-title"><h2>{{date_today}}</h2></span>
+                            <span ng-click="cld_change_month(1)" class="fc-button fc-button-next fc-state-default fc-corner-right">
+                                <span class="fc-button-inner">
+                                    <span class="fc-button-content" >&nbsp;►&nbsp;</span>
+                                    <span class="fc-button-effect"><span></span></span>
+                                </span>
+                            </span>
+                        </td>
+                        <td class="fc-header-right"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="position: relative; min-height: 1px;" class="fc-content">
+                <div style="position: relative; -moz-user-select: none;" class="fc-view fc-view-month fc-grid" unselectable="on">
+                    <table cellspacing="0" style="width:100%" class="fc-border-separate">
+                        <thead>
+                            <tr class="fc-first fc-last">
+                                <th class="fc-mon fc-widget-header" style="width: 14.285%;" ng-repeat="day in dayInWeek">{{day}}</th>            
+                                <th class="fc-sat fc-widget-header fc-last" style="width: 14.285%;">Thứ 7</th>
+                            </tr>
+                        </thead>
+                    <tbody>                    
+                        <tr ng-repeat="week in weeks" class="fc-week0 {{week.row_style}}" >
+                            <td  ng-repeat="days in week.days" class="fc-widget-content {{days.class}} {{days.td_last_style}} {{days.today_style}}" >                             
+                                <div class="div-intd" >
+                                    <div class="fc-day-number"><strong>{{days.day}}</strong></div> 
+                                    <div class="fc-day-content">
+                                        <div ng-repeat="event in days.events" style="position:relative">   
+                                            <span class="badge {{event.style}}" ng-click="popup_edit_spend_show(event.id)"  rel="tooltip" data-original-title="{{event.title}} - Người chi: {{event.user_name}}" data-placement="top" >${{event.money}}</span>                                                                             
+                                            <script>
+                                                $(function() {
+                                                    $("[rel=tooltip]").tooltip();
+                                                });                                             
+                                            </script>                                                                          
+                                        </div> 
+                                        <a ng-show = "days.td_click" href="#" ng-click="popup_add_spend_show(days.day, days.month, days.year)" rel="tooltip" data-original-title="Click để thêm mới" data-placement="top" class="badge badge_add">Thêm</a>                     
+                                    </div>                                                        
+                                </div>                               
+                            </td>
+                        </tr>
+                    </tbody>                
+                </div>
+            </div>
+          </div>
+          
+        </div>  
+      </div>
+    </div>
+</section>

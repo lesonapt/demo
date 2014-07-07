@@ -1,0 +1,41 @@
+<div ng-show="confirm_del_member" class="div-popup div-confirm-popup"> 
+    <div class="row body">
+        <label class="text-warning ">Bạn có muốn xóa thành viên này không ?</label>
+    </div>
+    <div class="row footer">
+       <div class="col-md-12">
+            <div class="pull-right">
+                <button ng-click="memberDel(false)"  class="btn btn-default">Không</button>
+                <button ng-click="memberDel(true)"  class="btn btn-primary ">Có</button>
+            </div> 
+       </div>  
+    </div>
+  
+</div>
+
+<div class="row text-center">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <h2 class="h-style">Danh sách thành viên</h2>
+        <table class="table table-striped table-bordered bootstrap-datatable datatable dataTable">
+            <tr>
+                <th>Tên thành viên</th>
+                <th>Gia nhập</th>
+                <th>Chi</th>
+                <th>Tiêu</th>
+                <th>Còn dư</th>
+                <th ng-show="owner">act</th>
+            </tr>
+            <tr ng-repeat="member in root_room_members">
+                <td>{{member.full_name || member.email}}</td>
+                <td>{{member.join_date}}</td>
+                <td><label class="label label-primary">{{member.money_add}}.000 </label>Vnd</td>
+                <td><label class="label label-danger">{{member.money_use}}.000</label> Vnd</td>
+                <td>
+                    <strong>{{member.money_blance}}.000 Vnd</strong>
+                </td>
+                <td ng-show="owner" ><span ng-hide="userId == member.id" ng-click="confirmDelMember(member.id)">Xóa khỏi phòng</span></td>
+            </tr>
+        </table>
+        <button ng-show="owner" ng-click="invMember()" class="btn-primary btn-lg visible-sm">Mời thêm thành viên</button>
+    </div>
+</div>

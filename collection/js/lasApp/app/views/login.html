@@ -1,0 +1,75 @@
+<div class="hidden-xs ">
+    <div class="las-login-header las-login-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>LAS</h2>
+                </div>
+                <div class="col-md-6">        
+                    <form class="form-inline" role="form" >
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                        <input type="email" class="form-control" ng-model="email" placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword2">Password</label>
+                        <input type="password" class="form-control" ng-model="password" placeholder="Password">
+                      </div>              
+                      <button type="submit" class="btn btn btn-primary" ng-click="doLogin()">Sign in</button>
+                    </form>
+                    <p class="help-block">Forgot your password?.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img class="mail-hero-img" src="//ssl.gstatic.com/accounts/services/mail/phone.png">
+            </div>
+            <div class="col-md-6">
+                <div class="row"><h2>Đăng kí</h2></div>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Tên tài khoản</label>
+                    <input type="text" ng-model="rg.username" class="form-control" id="exampleInputEmail1" placeholder="Tên tài khoản">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Họ tên</label>
+                    <input  type="text" ng-model="rg.fullname" class="form-control" id="exampleInputEmail1" placeholder="Họ tên">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Mật khẩu</label>
+                    <input type="password" ng-model="rg.password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Nhập lại mật khẩu</label>
+                    <input type="password" ng-model="rg.re_password" class="form-control" id="exampleInputPassword1" placeholder="Nhập lại mật khẩu">
+                  </div>
+                  <button type="submit" ng-click="sign_up()" class="btn btn-success">Đăng ký ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="las-login-footer las-login-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                      <li class="text-muted">&copy 2013</li>
+                      <li class="text-muted">Introduce</li>
+                      <li class="text-muted">FQA</li>
+                      <li class="text-muted">How to work?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<div class="visible-xs">
+    mobile
+</div>

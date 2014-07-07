@@ -1,0 +1,188 @@
+<style>
+.tour{margin-top: 58px;}
+.popup-tour{display: block;max-width:300px;position: relative;}
+</style>
+<div class="visible-xs" style="top: 0px;width: 100%;height: 100%;position: fixed;z-index: 9001;">
+      <div class="popover fade bottom in popup-tour " style="">
+            <div class="arrow"></div>
+            <div class="popover-content">
+                <div class="row">
+                    <button type="button" class="btn btn-primary  btn-lg btn-block bnt-radius" ng-click="step('step')"><strong>Tạo phòng</strong></button>&nbsp;
+                    <button type="button" class="btn btn-default btn-lg btn-block bnt-radius" ng-click="step('step9')">Không, tôi sẽ tạo sau</button>&nbsp;&nbsp;                            
+                </div>
+            </div>
+      </div>
+</div>
+
+<div class="hidden-xs" style="top: 0px;width: 100%;height: 100%;position: fixed;z-index: 9001;" >
+     <div class="row">
+        <div class="col-md-2 col-sm-2 col-lg-2"></div>
+        <div class="col-md-10 col-lg-10 col-sm-12">
+             <div ng-show="tour.step0" class="tour">
+                <div class="popover fade right in popup-tour" >
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Chào bạn {{user.fullname}}</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Lần đầu tiên tạo tài khoản. Để bạn dễ dàng sử dụng cũng như quản lý
+                        thông tin vui lòng xem qua các chức năng sau </p>
+                        </div>
+                        <div class="row">
+                            <br />
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step1', 'home')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        
+            <div ng-show="tour.step1" class="tour">
+                <div class="popover fade bottom in popup-tour" style="left: 20px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Tab home</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Thông tin chi chi tiêu của phòng, cá nhân tính đến thời điểm hiện tại</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                            <button type="button" class="btn btn-default" ng-click="step('step0', 'home')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step2', 'calender')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div ng-show="tour.step2" style="" class="tour" >
+                <div class="popover fade bottom in popup-tour" style="left: 40px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Menu Lịch</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Menu lịch - nơi để tạo ra các khoản chi tiêu hàng ngày của bạn </p>
+                        </div>
+                        <div class="row">
+                            <br />
+                            <button type="button" class="btn btn-default" ng-click="step('step1', 'home')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step3', 'plane')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div ng-show="tour.step3" style="" class="tour">
+                 <div class="popover fade bottom in popup-tour" style="left: 27px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Menu Kế hoạch</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Quản lý kế hoạch của bạn</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                             <button type="button" class="btn btn-default" ng-click="step('step2', 'calender')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step4', 'static')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div ng-show="tour.step4" style="" class="tour">
+                 <div class="popover fade bottom in popup-tour" style="left: 121px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Menu Thống kê</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Thống các khoản chi tiêu theo dạng biểu đồ từng tháng, năm</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                             <button type="button" class="btn btn-default" ng-click="step('step3', 'plane')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step5', 'members')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div ng-show="tour.step5" style="" class="tour">
+                 <div class="popover fade bottom in popup-tour" style="left: 200px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Menu thành viên</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Xem danh sách thành viên trong phòng hiện tại</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                             <button type="button" class="btn btn-default" ng-click="step('step4', 'static')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step6')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div ng-show="tour.step6" style="" class="tour">
+                 <div class="popover fade bottom in popup-tour pull-right" >
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Menu User</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p> Nơi bạn quản lý thông tin cá nhân của bạn</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                             <button type="button" class="btn btn-default" ng-click="step('step5', 'members')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step7')">Next</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-2 col-lg-2 col-sm-2"></div>
+        <div class="col-md-10 col-lg-10 col-sm-10">
+            <div ng-show="tour.step7" style="" class="tour">
+                 <div class="popover fade right in popup-tour" style="left: -31px;top: 108px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Tab : general</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p> Hiển thị tổng quan trạng thái của phòng</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                             <button type="button" class="btn btn-default" ng-click="step('step6')">Back</button>
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step8')">Hoàn tất</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <div ng-show="tour.step8" style="" class="tour">
+                 <div class="popover fade right in popup-tour" style="left: -31px;top: 108px;width: 300px;">
+                    <div class="arrow"></div>
+                    <h3 class="popover-title">Tạo phòng</h3>
+                    <div class="popover-content">
+                        <div class="row">
+                        <p>Bạn có muốn tạo riêng cho 1 mình một phòng và mời bạn bè, người thân của bạn vào không ?</p>
+                        </div>
+                        <div class="row">
+                            <br />
+                            <button type="button" class="btn btn-primary pull-right" ng-click="step('step')"><strong>Tạo ngay</strong></button>&nbsp;
+                            <button type="button" class="btn btn-default pull-right" ng-click="step('step9')">Không, tôi sẽ tạo sau</button>&nbsp;&nbsp;                            
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+</div>
+
+ 
+ 
+
+                                                         
+    
+    
+
+   

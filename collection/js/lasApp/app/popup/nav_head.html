@@ -1,0 +1,60 @@
+ <nav class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav hidden-sm">
+        <li ng-show="menu == 'home' " class="active" ng-click="menuActive('home')"> <a href="/app">Home</a><li>
+        <li ng-hide="menu == 'home' " ng-click="menuActive('home')"> <a href="/app">Home</a><li>
+        
+        <li ng-show="menu == 'calender' " class="active"  ><a href="calender" >Lịch chi tiêu</a><li>
+        <li ng-hide="menu == 'calender' " ng-click="menuActive('calender')"> <a href="calender">Lịch chi tiêu</a><li>
+        
+        <li ng-show="menu == 'static' " class="active" ><a href="static">Thống kê</a></li>
+        <li ng-hide="menu == 'static' " ng-click="menuActive('static')"><a href="static">Thống kê</a></li>
+        
+        <li ng-show="menu == 'plane' " class="active " ><a href="plane">Kế hoạch</a>
+        <li ng-hide="menu == 'plane' "  ng-click="menuActive('plane')"><a href="plane">Kế hoạch</a> 
+        
+        <li ng-show="menu == 'members' " class="active " ><a href="members">Thành viên</a></li>
+        <li ng-hide="menu == 'members' "  ng-click="menuActive('members')"><a href="members">Thành viên</a></li>
+        
+        
+    </ul>
+    
+    
+    <ul class="nav navbar-nav visible-sm">
+        <li ng-show="menu == 'home' " class="active" ng-click="menuActive('home')"> <a href="/">Home</a><li>
+        <li ng-hide="menu == 'home' " ng-click="menuActive('home')"> <a href="/">Home</a><li>
+        
+        <li ng-show="menu == 'calender' " class="active"  ><a href="calender" >Lịch chi tiêu</a><li>
+        <li ng-hide="menu == 'calender' " ng-click="menuActive('calender')"> <a href="calender">Lịch chi tiêu</a><li>
+        
+        <li ng-show="menu == 'static' " class="active" ><a href="static">Thống kê</a></li>
+        <li ng-hide="menu == 'static' " ng-click="menuActive('static')"><a href="static">Thống kê</a></li>
+        
+        <li class="dropdown visible-sm">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Nhiều hơn <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="plane">Kế hoạch</a></li>
+              <li><a href="members">Thành viên</a></li>
+            </ul>
+       </li>
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-cog"></span>&nbsp;{{fullname}}
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="setting">Thông tin cá nhân</a></li>
+          <li><a href="sign-out">Rời khỏi phòng</a></li>
+          <li class="divider" role="presentation"></li>
+          <li><a ng-click="logout()" href="#">Thoát</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+

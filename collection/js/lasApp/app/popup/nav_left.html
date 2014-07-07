@@ -1,0 +1,32 @@
+
+
+<select style="margin-top: 15px;" ng-show="root_room_list.length > 1" class="form-control input-sm" ng-model="root_room.id" ng-options="r.room_id as r.name for r in root_room_list"></select>
+
+<blockquote class="block-room">
+    <h4> <span class="glyphicon glyphicon-home"></span> {{room_name}}<span class="badge">{{root_room.total}}</span></h4>
+</blockquote>  
+<blockquote class="block-member">
+    <small>Thành viên</small>
+</blockquote>  
+    
+    <ul class="list-unstyled" style="margin: 0px 0 0 10px;" >
+        <li ng-repeat="member in root_room_members" style="margin-top: 5px;">
+            <span class="glyphicon glyphicon-user"></span>
+            <a href="#">{{member.full_name || member.email}}</a>
+            <span rel="tooltip" data-original-title="+{{member.money_add}}$ , -{{member.money_use}}$" data-placement="top" class="label {{member.style}}">{{member.money_blance}}$</span>                                                                          
+            <script>
+                $(function() {
+                    $("[rel=tooltip]").tooltip();
+                });                                             
+            </script>  
+        </li>
+        <li ng-show="user.owner" style="margin: 10px 0 0 16px;" >
+            <button ng-click="load_form_invi()" type="button" class="btn btn-primary" style="border-radius: 5px;">Mời thành viên</button>
+        </li>
+    </ul>
+  
+  
+  
+
+
+    

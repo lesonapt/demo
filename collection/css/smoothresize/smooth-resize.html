@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>HTML5 and CSS3 Validation</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+		body {
+			background-color: #d1caa7;
+			color: #462932;
+			font-family: Verdana, Verdana, Geneva, sans-serif;
+		}
+		section, h1, li, img {
+			-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			-webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			-o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			transition: width 1s ease-in-out, left 1.5s ease-in-out;
+		}
+		
+		h1, h2, h3, h4 {
+			margin: 0px;
+			color: #6da288;
+		}
+		
+		header#banner {
+			position: relative;		
+			height: 100px;
+		}
+		
+		header#banner h1 {	
+			position: absolute;
+			top: 10px;
+			left: 110px;
+		}
+		
+		header#banner img {	
+			width: 100px;
+			max-width: 100%;
+		}
+		
+		ol, ol li {
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+			color: #d46559;
+		}
+		
+		ol li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		
+		ol li:last-child {
+			margin-right: 0px;
+		}
+		
+		section h1 {
+			margin-top: 20px;
+		}
+		
+		@media only screen and (min-width: 480px) { 			
+			section {
+				width: 420px;
+			}
+		} 
+		@media only screen and (min-width: 600px) { 
+			header#banner img {	
+				width: 120px;
+			}
+			nav {
+				float: left;
+				width: 100px;				
+			}
+			
+			ol li {
+				display: list-item;
+			}
+			
+			section {
+				float: left;
+				width: 460px;				
+				border-left: 1px solid #f7e3d2;
+				padding: 0px 0px 0px 20px;
+			}
+
+			section h1 {
+				margin-top: 0px;
+			}
+		} 
+		@media only screen and (min-width: 768px) { 
+			nav {
+				width: 200px;
+			}
+			
+			section {
+				width: 528px;
+			}
+		} 
+		@media only screen and (min-width: 992px) { 
+			header#banner h1 {
+				position: absolute;
+				left: 750px;				
+			}
+			
+			nav {
+				width: 250px;
+			}
+			
+			ol li {
+				text-align: right;
+				margin-right: 20px;
+			}
+			
+			section {
+				width: 702px;
+			}
+		} 
+		@media only screen and (min-width: 1382px) { 
+			header#banner h1 {
+				position: absolute;
+				left: 950px;				
+			}
+			nav {
+				width: 300px;
+			}
+			
+			section {
+				width: 862px;
+			}
+		}
+
+	</style>	
+</head>
+<body>
+    <div id="page">
+		<header id="banner">			
+			<img src="logo.png" alt="logo" />
+			<h1>Site Name</h1>
+		</header>
+		<nav id="menu">
+			<ol>
+				<li>Home</li>
+				<li>About</li>
+				<li>Blog</li>
+				<li>Contact</li>
+			</ol>
+		</nav>
+        <section id="main">			
+			<article class="post-1">
+				<h1>First Post</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis imperdiet ipsum eu ultricies sollicitudin. Donec arcu urna, venenatis id mollis nec, lacinia non magna. Sed eleifend turpis at adipiscing mollis. Maecenas arcu elit, accumsan varius ipsum a, scelerisque eleifend est. Sed nec viverra ipsum. Morbi nunc urna, pulvinar ut suscipit nec, tempor et diam. Sed eu odio et neque ullamcorper dapibus eu ac nunc. </p>
+
+				<p>Sed malesuada sit amet augue hendrerit auctor. Vestibulum vitae lectus molestie, scelerisque nisi sed, vestibulum risus. In volutpat elit nec volutpat semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc vel dignissim augue. Curabitur in cursus ante. Nunc nec magna eu arcu consectetur auctor. Vivamus sodales lobortis gravida. Morbi lacus dolor, laoreet sed ultrices in, ultrices nec lacus. Pellentesque vehicula nibh sit amet ipsum adipiscing varius. </p>
+
+				<p>Sed ullamcorper lectus eu sollicitudin pulvinar. Pellentesque vel consectetur massa. Mauris posuere lobortis elementum. Nulla tincidunt ornare tortor et luctus. Mauris at nunc pellentesque, elementum neque id, dignissim erat. Suspendisse euismod eros adipiscing commodo pellentesque. Suspendisse tincidunt et tellus vitae malesuada. Nam metus ipsum, dictum nec ligula facilisis, semper hendrerit odio. Vestibulum rutrum, ante vitae bibendum sodales, turpis diam congue elit, at hendrerit dolor eros non erat. Donec est ipsum, dictum id sem eu, tincidunt vestibulum quam. Curabitur eu neque nulla. Nullam vitae eleifend lectus. </p>
+
+				<p>Curabitur hendrerit molestie velit a elementum. In condimentum venenatis varius. Phasellus malesuada rhoncus consequat. Aliquam neque nisl, blandit et pellentesque sit amet, luctus a sem. Nam leo mauris, pretium eu mattis eget, blandit quis metus. Duis rhoncus ante a varius pharetra. Proin eu sem leo. Mauris consequat erat sed augue euismod, eget interdum enim sodales. Quisque imperdiet hendrerit mi, sed pharetra libero rutrum eu. Ut volutpat neque magna, et ultrices libero hendrerit eget. Nulla iaculis velit et felis egestas consequat. Nunc id vulputate tortor. Etiam elementum justo id arcu fringilla vulputate a ac ipsum. In consectetur malesuada consectetur. </p>
+
+				<p>Nunc vestibulum erat eget lacus eleifend, in dignissim felis aliquet. Proin hendrerit non purus sit amet iaculis. Suspendisse malesuada fringilla nisi sed sodales. Sed sit amet velit eu lacus bibendum tristique. Sed porttitor tempus risus ac blandit. Nunc diam libero, faucibus non faucibus molestie, lacinia at lectus. Duis velit tortor, bibendum non orci quis, interdum cursus orci. Aliquam condimentum mi eu magna egestas, lobortis sagittis enim scelerisque. Phasellus in tincidunt est. Praesent fringilla luctus leo eget malesuada. Cras gravida quis nulla quis dictum. Pellentesque vitae nisl et sapien fermentum suscipit. In faucibus neque non arcu scelerisque, non tincidunt arcu iaculis. Mauris dapibus mauris nisl, a gravida magna dictum nec. Sed in lacus elit.</p>
+			</article>			
+		</section>
+    </div>   	
+</body>
+</html>

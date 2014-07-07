@@ -1,0 +1,31 @@
+<div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="las-login text-center">
+                <h1 class="las-logo visible-xs" >
+                    <strong class="l">L</strong>
+                    <strong class="a">A</strong>
+                    <strong class="s">S</strong>
+                </h1>
+                <h1 class="h-style">Đăng ký tài khoản để sử dụng </h1>
+                <div class="text-center well" style="max-width: 600px;margin: auto;margin-top: 30px;">
+                   <img class="img-circle" src="login-avt.png" style="margin: 0px 0 20px 0;" />
+                   <form name="regForm">
+                        
+                        <input name="rgfullname" ng-model="rgfullname" class="form-control no-radius input-lg" type="text"  placeholder="Họ tên" required/>
+                        <input name="rgemail" ng-model="rgemail" class="form-control no-radius input-lg" type="email"  placeholder="email" required/>
+                        <span ng-show="error.userexist" class="text-danger" >email này đã có người sử dụng</span>
+                        <input name="rgpassword" ng-model="rgpassword"  class="form-control no-radius input-lg" type="password" placeholder="Mật khẩu" required />
+                        <input ng-model="rgconfirmpassword"  class="form-control no-radius input-lg" type="password" placeholder="Nhập lại mật khẩu" required />
+                        <span ng-show="error.erpasswordLengh" class="clearfix text-danger">Mật khẩu ít nhất 3 ký tự</span>
+                        <span ng-show="error.erpassword" class="clearfix text-danger">Mật khẩu không khớp nhau</span>
+                        <button style="margin: 15px 0 20px 0;" ng-click="sign_up()" class="btn btn-primary btn-lg btn-block bnt-radius">Tạo tài khoản</button>
+                        <div><strong>Hoặc</strong></div>
+                        <h2 class="h-style"><a href="login.html" >Đăng nhập</a></h2>
+                        
+                   </form>
+                </div>
+                <p style="margin-top: 50px;">&COPY;2013</p>
+            </div>
+            
+        </div>
+    </div>   

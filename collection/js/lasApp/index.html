@@ -1,0 +1,36 @@
+<html ng-app="lasApp" >
+  <head >
+    <title ng-bind="root_title">LAS</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/style/css/bootstrap.css" rel="stylesheet">
+    <link href="/style/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="/style/css/las.css" rel="stylesheet">
+    
+	<script src="/app/vendors/jquery-1.9.1.min.js"></script>
+	<script src="/app/vendors/angular.min.js"></script>
+	<script src="/app/vendors/angular-resource.js"></script>
+    <script src="/app/vendors/config.js"></script>
+	<script src="/style/js/bootstrap.min.js"></script>
+    
+    <script src="/style/js/tooltip.js"></script>
+    <script src="/style/js/popover.js"></script>
+    <script src="/style/js/alert.js"></script>
+    <script src="/style/js/transition.js"></script>
+    
+    
+    <script src="/app/services/services.js"></script>
+	<script src="/outsideapp.js"></script>
+  </head>
+  <body ng-controller="lasCtrl" style="padding-top: 70px;">
+    <ng-include src="'public/outside-nav.html'"></ng-include>  
+    <div ng-view></div>   
+      <script>
+                   
+        $(document).on('mouseenter','[rel=tooltip]', function(){
+            $(this).tooltip('show');
+        });           
+    </script> 
+  </body>
+</html>

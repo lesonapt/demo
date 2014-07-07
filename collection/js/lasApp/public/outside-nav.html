@@ -1,0 +1,47 @@
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
+    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs text-center">
+        <h1 class="las-logo" >
+            <strong class="l">L</strong>
+            <strong class="a">A</strong>
+            <strong class="s">S</strong>
+        </h1>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
+        <ul class="nav navbar-nav visible-lg visible-md visible-sm">
+            <li ng-show="act == 'contact' " class="active"><a href="gioi-thieu.html">Giới thiệu</a></li>
+            <li ng-hide="act == 'contact' " ng-click="setAct('contact')"><a href="gioi-thieu.html">Giới thiệu</a></li>
+       
+            <li ng-show="act == 'login' " class="active" > <a href="login.html">Đăng nhập</a><li>
+            <li ng-hide="act == 'login' " ng-click="setAct('login')"> <a href="login.html">Đăng nhập</a><li>
+            
+            <li ng-show="act == 'registry' " class="active"><a href="registry.html" >Đăng ký</a><li>
+            <li ng-hide="act == 'registry' " ng-click="setAct('registry')"><a href="registry.html" >Đăng ký</a><li>
+            
+            <li ng-show="act == 'guide' " class="active"><a href="huong-dan.html">Hướng dẫn</a></li>
+            <li ng-hide="act == 'guide' " ng-click="setAct('guide')"><a href="huong-dan.html">Hướng dẫn</a></li>
+            
+            <li ng-show="act == 'question' " class="active"><a href="hoi-dap.html">Câu hỏi thường gặp</a>
+            <li ng-hide="act == 'question' " ng-click="setAct('question')"><a href="hoi-dap.html">Câu hỏi thường gặp</a>
+            
+        </ul>
+        
+        
+
+        
+        <ul class="nav navbar-nav visible-xs">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                 <h2 class="h-style" style="padding: 0px; margin:0;"> <span class="glyphicon glyphicon-list"></span> Menu</h2>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                  <li > <a href="login.html">Đăng nhập</a><li>
+                  <li><a href="registry.html" >Đăng ký</a><li>
+                  <li><a href="huong-dan.html">Hướng dẫn</a></li>
+                  <li><a href="hoi-dap.html">Câu hỏi thường gặp</a>
+                </ul>
+           </li>
+        </ul>
+    </div>
+</nav>
+

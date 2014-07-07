@@ -1,0 +1,23 @@
+<div class="div-popup div-popup-invi" >
+    <div class="row">
+        <div class="col-md-12"><span ng-click="popup_close('invi')" class="pull-right glyphicon glyphicon-remove" ></span></div>
+    </div>
+    <div class="row">
+        <form role="form" class="form-inline ng-pristine ng-valid">
+              <div class="form-group">
+                <label for="exampleInputEmail2" class="sr-only">Mời thành viên</label>
+                <input type="text" placeholder="Tên người mời" ng-model="invi_email" class="form-control input-customer">
+                {{invi_email}}
+              </div>                                  
+              <button ng-click="send_invi()" class="btn btn btn-primary" type="submit">Mời ngay</button>
+        </form>
+    </div>
+    <div class="row" style="padding-top: 10">
+        <div class="col-md-12">
+            <div class=" pull-right">
+                <button ng-click="popup_close('invi')"  class="btn btn-danger">Đóng</button>
+            </div>
+            
+        </div>        
+    </div>
+</div>

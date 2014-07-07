@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GallerySoft.info" />
+    
+	<title>Untitled 1</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script>
+        
+      var socket = io.connect('http://localhost:3000');
+      
+      function sendchat() {
+        var msg = $('#msg');
+        socket.emit('send-msg', msg.val()); 
+        
+      }
+      
+ 
+      
+  
+      socket.on('new-msg', function(data) {
+        $('body').html(data);
+      });
+      
+      
+    //  setInterval(function() {
+//        console.log('adasd');
+//         var msg = $('#msg');
+//         socket.emit('send-msg', msg.val()); 
+//      },3000);
+      
+   //   socket.on('new-msg', function(data) {
+//        var chattext = $('.chattext');
+//        chattext.append(data+'</br>');
+//      });
+        
+
+
+
+    </script>
+</head>
+
+<body>
+    <textarea onkeypress="view();" style="width: 100%; height: 100%;" class="div-text" ></textarea>
+</body>
+
+</html>

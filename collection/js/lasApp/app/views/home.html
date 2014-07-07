@@ -1,0 +1,62 @@
+<div style="position: relative;">
+<div class="div-popup" ng-show="confirmationChecksum">
+    <div class="body">Bạn có muốn tổng kết không ?</div>
+    <div class="footer">
+        <p class="pull-right">
+            <button class="btn btn-primary " ng-click="popup_close('confirmationChecksum', 1)">Không</button>
+            <button class="btn btn-default" ng-click="checkSum()">Có</button>            
+        </p>
+    </div>
+</div> 
+ 
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <div id="chartContainer" ></div>
+    </div>
+</div>
+<div class="row" >
+  <div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="thumbnail"> 
+      <div class="caption">
+        
+        <h3 class="visible-sm inline"><span class="glyphicon glyphicon-home"></span> {{room_name}}</h3>
+        <h3 class="hidden-sm hidden-xs">{{room_name}}</h3>
+        <blockquote>
+            <strong>Số tiền {{minDate}} : </strong><span class="badge">  ${{root_room.total}}</span>
+            <p class="visible-sm"><button ng-click="load_form_invi()" class="btn btn-default ">Mời thành viên</button></p>
+        </blockquote>
+        
+        <ul>
+            <li ng-repeat="member in root_room_members">
+               <small>{{member.full_name || member.email}}</small>
+                <span class="label {{member.style}}">{{member.money_blance}}$</span>                                                                       
+             </li>
+        </ul> 
+        
+        <p class="text-center" ><a href="#" ng-show="stringMindate != null" ng-click="cofirmCheckSum()" class="btn btn-primary btn-lg" role="button">Tổng kết</a></p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>Lịch sử tổng kết </h3>
+        <span ng-show="histories.length == 0" ><p class="text-info text-center">Chưa có tổng kết</p></span>
+        <select ng-change="spendHistory()" ng-model="history" ng-show="histories.length > 0" class="form-control input-sm">
+            <option value="0">--- // ----</option>
+            <option ng-repeat="h in histories" value="{{h.start_date}}to{{h.end_date}}">Lần {{h.index}} : Từ {{h.start_date}} đến {{h.end_date}} </option>
+        </select>
+        <ul>
+            <li ng-repeat="member in memberHistory" class="text-muted">
+               <small>{{member.name}} ==> </small>
+               <span >Chi : {{member.add_money }}, Tiêu : {{member.used_money}}, Dư {{member.money_blane}} (Nghìn đồng)</span>                                                                       
+             </li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+

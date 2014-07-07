@@ -1,0 +1,201 @@
+<html ng-app="myApp" >
+  <head >
+    <title ng-bind="root_title">myApp</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="/style/css/bootstrap.css" rel="stylesheet">
+    <link href="/style/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="/style/css/las.css" rel="stylesheet">
+    <link href="/style/css/fullcalendar.print.css" rel="stylesheet">
+    <link href="/style/css/fullcalendar.css" rel="stylesheet">
+    <link href="/style/css/jquery-ui.css" rel="stylesheet">
+     
+    <!-- resource --> 
+	<script src="vendors/jquery-1.9.1.min.js"></script>
+	<script src="vendors/angular.min.js"></script>
+	<script src="vendors/angular-resource.js"></script>
+    <script src="vendors/config.js"></script>
+    <!-- UI -->
+    <script src="/style/js/jquery-ui.js"></script>
+    <!-- char -->
+	<script src="/style/js/knockoutchart-2.2.1.js"></script>
+    <script src="/style/js/globalizechart.min.js"></script>
+    <script src="/style/js/dx.chartjs.js"></script>
+     <script src="/style/js/datefomat.js"></script>
+    <script src="/style/js/bootstrap.min.js"></script>
+    <script src="/style/js/las.js"></script>
+    
+    
+    <!-- boostrap -->
+    <script src="/style/js/alert.js"></script>
+    <script src="/style/js/popover.js"></script>
+    <script src="/style/js/tooltip.js"></script>
+    <script src="/style/js/transition.js"></script>
+    
+    <!-- app -->
+    <script src="directives/directive.js"></script>
+    <script src="services/services.js"></script>
+	<script src="app.js"></script>
+    
+    <script src="controllers/nav_ctrl_head.js"></script>
+    <script src="controllers/nav_ctrl_left.js"></script>
+
+    <script src="controllers/home.js"></script>
+    <script src="controllers/static.js"></script>
+    <script src="controllers/calender.js"></script>
+    <script src="controllers/plane.js"></script>
+    <script src="controllers/print.js"></script>
+    <script src="controllers/members.js"></script>
+    
+    <script src="controllers/setting.js"></script>
+    <script src="controllers/signout.js"></script>
+    
+    <script src="/style/js/function.js"></script>
+    
+    
+    <!-- datepicker -->
+  
+    
+  </head>
+  <body ng-controller="myCtrl" style="padding-top: 70px;" >
+    <ng-include ng-show="root_screen_show" src="'popup/screen.html'"></ng-include>  
+    <!-- msg -->
+    <div class="msg-popup warning">Loading...</div>
+    
+    <div id="msg_popup" class="alert {{root_msg_style}}" ng-show="root_msg_show" >{{root_msg_text}}</div>    
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div  ng-controller="navCtrl_head">
+                <div class="col-md-2 col-sm-2 col-lg-2 text-center" style="padding-top: 5px;">
+                    <h1 class="las-logo visible-lg visible-md" style="margin-top: -3px;">
+                        <strong class="l">L</strong>
+                        <strong class="a">A</strong>
+                        <strong class="s">S</strong>
+                    </h1>
+                    <select class="form-control input-sm visible-sm" ng-model="root_room.id" ng-options="r.room_id as r.name for r in root_room_list"></select>
+                </div>
+                <div class="col-md-10 col-sm-10 col-lg-10">                    
+                    <ng-include src="'popup/nav_head.html'"></ng-include>   
+                    <ng-include src="'popup/mobile_nav_head.html'"></ng-include>                
+                </div>
+                                                      
+            </div>
+        </nav>
+
+        <div class="row" ng-controller="navCtrl_left">
+            <ng-include ng-show="root_first_login"src="'popup/tour.html'"></ng-include>
+                       
+           <!-- duoc moi -->
+            <div class="div-popup div-confirm-invi-popup" ng-show="root_alert_ivent">
+                <div class="row">
+                    <h4>Bạn được mời vào phòng <strong>{{invi_info.name}}</strong></h4>
+                    <p class="pull-right">
+                        <button ng-click="accept_invi()" class="btn btn-primary">Chấp nhận</button>&nbsp;&nbsp;
+                        <button ng-click="inject_invi()" class="btn">Từ chối</button>
+                    </p>
+                </div>
+            </div>
+            <!-- end -->
+            <!-- alert create room ?-->
+            <div class="div-popup create-room-popup" ng-show="creat_room_ask">
+                <div class="row">
+                    <div class="col-md-12"><h4>Hình như bạn chưa thuộc phòng nào </h4></div>
+                    <div class="col-md-12">
+                        <p class="hidden-xs" >
+                             Bạn thân mến. Dường như bạn chưa thuộc phòng nào, Bạn đang chờ ai đó
+                             mời bạn vào phòng của họ chăng ?. Hay bạn có thể tạo cho mình 1 phòng riêng để 
+                             sư dụng 
+                        </p>
+                    </div>
+                </div>
+                <div class="row modal-footer" style="margin-top: 10px;padding: 20px 20px 0 0;">
+                    <p class="hidden-xs">
+                        <button ng-click="popup_close('creat_room_ask', 1)" class="btn btn-default ">Vâng, tôi đang đợi bạn của tôi mời</button>&nbsp;&nbsp
+                        <button ng-click="yes_create_room()"  class="btn  btn-primary">Tôi muốn tạo phòng</button>
+                    </p>
+                    <p class="visible-xs">
+                        <button ng-click="popup_close('creat_room_ask', 1)" class="btn btn-default btn-lg btn-block bnt-radius ">Đang đợi người mời</button>&nbsp;&nbsp
+                        <button ng-click="yes_create_room()"  class="btn  btn-primary btn-lg btn-block bnt-radius">Tôi muốn tạo phòng</button>
+                    </p>
+                </div>
+            </div>
+            <!-- -->
+            <!-- them phong -->
+            <div class="div-popup create-room-popup" ng-show="root_alert_have_room">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;"><h3>Tạo phòng</h3></div>
+                    <div class="col-md-12">
+                         <div class="form-group">
+                            <label for="inputEmail1" class="col-md-4 col-lg-4 col-sm-4 control-label">Tên phòng</label>
+                            <div class="col-md-8 col-lg-8 col-sm-8">
+                              <input placeholder="Nhập tên phòng" class="form-control"   type="text" ng-model="room_add_name"/>
+                              <span class="small" ng-show="error_room_name">Nhập tên phòng</span>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="row modal-footer" style="margin-top: 10px;padding: 20px 20px 0 0;">
+                    <button ng-click="popup_close('root_alert_have_room', 1)"  class="btn btn-default">Hủy bỏ</button>
+                    <button ng-click="create_room()" class="btn btn-primary ">Tạo ngay</button>&nbsp;&nbsp
+                </div>
+            </div>
+            <!-- end -->
+            <!-- alert create room succesfull-->
+            <div class="div-popup create-room-popup_alert" ng-show="create_room_success">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Tạo phòng thành công</h2>
+                        <small>Hệ thống đã tự động thêm vào phòng của bạn 1 số dữ liệu demo, Bạn cũng có thể cập
+                        nhật lại dữ liệu đó</small> 
+                        <span class="pull-right">Thân !</span>
+                    </div>
+                </div>
+                <div class="row modal-footer" style="margin-top: 10px;padding: 20px 20px 0 0;">
+                    <button ng-click="create_room_complete()"  class="btn btn-primary">Hoàn tất</button>
+                </div>
+            </div>
+            <!-- end-->
+            <!-- moi vao phong-->
+            <div ng-show="root_view_form_invi" class="div-popup div-popup-invi" >
+                <div class="row" style="padding: 20px;">
+                     <form class="form-inline" role="form">
+                        <div class="col-md-9">
+                              <input type="text" placeholder="Nhập tên người mời"  ng-model="user.invi_username"  class="form-control input-customer">                              
+                              <small class="text-danger msg">&nbsp;</small>
+                        </div>
+                        <div class="col-md-2">
+                             <button ng-click="send_invi()" class="btn btn btn-primary" type="submit">Mời ngay</button>
+                        </div>
+                     </form>   
+                </div>
+                <div class="row  modal-footer" style="padding: 5px 0px 5px 0px;">
+                    <div class="col-md-12">
+                        <div class=" pull-right">
+                            <button ng-click="popup_close('root_view_form_invi', 1)"  class="btn">Đóng</button>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+            <!-- end -->
+            <!-- nav left-->
+            <div class="col-md-2 col-lg-2 visible-lg visible-md" >
+                <div class="las-home-body-left navbar-default">
+                    <div class="" style="padding: 0px 10px 5px 5px;">
+                       <ng-include src="'popup/nav_left.html'"></ng-include>
+                    </div>
+                </div>                
+            </div>
+            <!-- end nav left-->
+            <div class="col-md-10 col-lg-10 col-sm-12"> 
+                <div class="las-home-body-right">          
+                    <div ng-view ></div>                   
+                    <div class="row" >
+                        <div class="col-md-12 text-center" style="margin: 20px 0 20px 0;">&copycopyRight 2013</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+  </body>
+</html>

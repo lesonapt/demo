@@ -1,0 +1,28 @@
+	<div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="las-login text-center">
+                <h1 class="las-logo visible-xs" >
+                    <strong class="l">L</strong>
+                    <strong class="a">A</strong>
+                    <strong class="s">S</strong>
+                </h1>
+                <h1 class="h-style">Đăng nhập để sử dụng </h1>
+                <div class="text-center well" style="max-width: 400px;margin: auto;margin-top: 30px;">
+                   <img class="img-circle" src="login-avt.png" style="margin: 0px 0 20px 0;" />
+                   <form name="loginForm">
+                        <input ng-model="email" ng-class="error.username" class="form-control no-radius input-lg" type="email" placeholder="Email" required/>
+                        <input ng-model="password" ng-class="error.password" class="form-control no-radius input-lg" type="password" placeholder="Mật khẩu" required />
+                        <small ng-show="error.login" class="clearfix text-danger">Email hoặc mật khẩu không đúng</small>
+                        <button style="margin: 15px 0 0;" ng-click="doLogin()" class="btn btn-primary btn-lg btn-block bnt-radius">Đăng nhập</button>
+                        <a style="margin: 10px 0 0;" href="registry.html" class="pull-left">- Tạo tài khoản</a>
+                        <div class="clearfix visible-xs"></div>
+                        <a style="margin: 10px 0 0;" href="request-password.html" class="pull-right hidden-xs">- Quên mật khẩu ?</a>
+                        <a style="margin: 10px 0 0;" href="request-password.html" class="pull-left visible-xs">- Quên mật khẩu ?</a>
+                        <div class="clearfix"></div>
+                   </form>
+                </div>
+                <p style="margin-top: 50px;">&COPY;2013</p>
+            </div>
+            
+        </div>
+    </div>

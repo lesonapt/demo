@@ -1,0 +1,173 @@
+<div ng-show="root_plane_popup" class="div-popup div-add-popup"  >       
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+            <h2 ng-show="act == 'add' " class="text-center">Tạo kế hoạch</h2>
+            <h2 ng-show="act == 'edit' " class="text-center">Cập nhật thông tin</h2>
+            
+            <form class="form-horizontal" name="planeForm" role="form" >         
+                
+             <div class="form-group">
+                    <span for="inputEmail1" class="col-lg-3 col-xs-3 col-md-3 col-sm-3 control-label">Tên kế hoạch</span>
+                    <div class="col-lg-9 col-xs-9 col-md-9 col-sm-9">
+                      <input placeholder="Tên kế hoạch" class="form-control input-sm" type="text" ng-model="planeName" required/>
+                    </div>
+             </div>     
+            
+             <div class="form-group">
+                <span for="inputEmail1" class="col-lg-3 col-xs-3 col-md-3 col-sm-3 control-label">Bắt đầu ngày</span>
+                <div class="col-md-9 col-sm-9 col-lg-9 col-xs-9 ">
+                    <div class="input-group">
+                      <input ng-model="date" type="text" class="form-control input-sm" jqdatepicker />
+                      <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                      
+                    </div>
+                </div>
+             </div>
+             
+              <div class="form-group">
+                <span for="inputEmail1" class="col-lg-3 col-xs-3 col-md-3 col-sm-3 control-label">Kết thúc ngày</span>
+                <div class="col-lg-9 col-xs-9 col-md-9 col-sm-9">
+                    <div class="input-group">
+                      <input ng-model="e_date" type="text" class="form-control input-sm" ejqdatepicker />
+                      <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                    </div>
+                    <span ng-show="error.e_date" class="text-danger">Ngày kết thúc phải lớn hơn ngày bắt đầu</span>
+                </div>
+            
+               </div>  
+             
+              
+              <div class="form-group">
+                <span for="inputEmail1" class="col-lg-3 col-xs-3 col-md-3 col-sm-3 control-label">Số tiền </span>
+                <div class="col-md-9 col-sm-9 col-lg-9 col-xs-9 ">
+                    <div class="input-group">
+                      <input placeholder="Số tiền cho kế hoạch" ng-model="planeMoney" type="text" class="form-control input-sm" number />
+                      <span class="input-group-addon">
+                       .000 Vnd
+                      </span>
+                    </div>
+                </div>
+              </div>  
+                
+              <div class="row modal-footer" style="padding-top: 15px;">
+               <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 ">
+                    <div class="pull-right">
+                        <button ng-show="act == 'edit' " ng-click="updatePlane()" class="btn btn-primary ">Cập nhật</button>&nbsp;
+                        <button ng-show="act == 'add'  "ng-click="createPlane()" class="btn btn-primary ">Bắt đầu</button>&nbsp;
+                        <button ng-click="popup_close('root_plane_popup', 1)"  class="btn btn-default">Hủy bỏ</button>
+                    </div> 
+               </div>  
+            </div>  
+            
+          </form>          
+        </div>
+    </div>
+    
+   
+</div>   
+
+
+<section ng-show="havePlane">
+<!--
+    <div class="row" >
+         <form name="myForm" class="form-horizontal" role="form" novalidate >
+              Email: <input type="email" name="input" ng-model="text" required>
+              <span class="error" ng-show="myForm.input.$error.required">
+                Required!</span>
+              <span class="error" ng-show="myForm.input.$error.email">
+                Not valid email!</span>
+              <tt>text = {{text}}</tt><br/>
+              <tt>myForm.input.$valid = {{myForm.input.$valid}}</tt><br/>
+              <tt>myForm.input.$error = {{myForm.input.$error}}</tt><br/>
+              <tt>myForm.$valid = {{myForm.$valid}}</tt><br/>
+              <tt>myForm.$error.required = {{!!myForm.$error.required}}</tt><br/>
+              <tt>myForm.$error.email = {{!!myForm.$error.email}}</tt><br/>
+        </form>
+    </div>
+-->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <p class="text-center"><h2 class="h-style">{{plane.name}} <span class="badge">Trong vòng {{totalDayPlane}} Ngày</span> </h2></p>
+            <blockquote class="pull-left">
+                <small>Ngày bắt đầu thực hiện : <strong title="Ngày thực hiện">{{plane.start_date}}</strong></small>
+                <small>Kết thúc vào ngày : <strong title="Ngày kết thúc kế hoạch">{{plane.end_date}}</strong></small>
+                <small>Số tiền sử dụng trong vòng {{totalDayPlane}} ngày là : <strong title="Tiền dự kiến">{{plane.money}}.000 Vnd</strong></small>
+            </blockquote>
+
+            <div class="pull-left">
+                <button ng-click="updatePlaneViewPopup('edit')" class="btn btn-primary btn-lg" style="border-radius: 5px; margin:13px 0 0 10px;">Thay đổi</button>
+            </div>
+            <div class="clearfix"></div>
+            <article>[{{plane.start_date}}] ==> </article>
+            <article ng-repeat="day in longDays"  > 
+                <div  rel="tooltip" data-original-title="{{day.date}} {{spend_plane[day.due_date].use_money}} " class="plane_day {{day.style}}">
+                    <span ng-show="spend_plane[day.due_date].use" class="glyphicon glyphicon-ok"></span>
+                </div>
+            </article>
+            <article>&nbsp;Kết thúc [{{plane.end_date}}]</article>
+                 <script>
+                    //$(document).ready(function(){
+                    //                     $("[rel=tooltip]").tooltip();
+                    //                });
+                      
+                    $(document).on('mouseenter','[rel=tooltip]', function(){
+                        $(this).tooltip('show');
+                    });           
+                </script> 
+        </div>
+        
+    </div>
+    
+    <div class="row" style="margin-top: 50px;">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="thumbnail"> 
+              <div class="caption">
+                <h3 class="h-style">Trạng thái  <span ng-show="planeStatus>=0" class="badge">Đã hoàn thành</span><span ng-show="planeStatus < 0" class="badge">Chưa hoàn thành</span></h3>
+                <ul class="list-unstyled" ng-show="planeStatus < 0">
+                    <li>Thực hiện được  <strong>{{used_completed_days}} </strong> ngày còn lại <strong>{{totalDayPlane - used_completed_days}}</strong> Ngày</li>
+                    <li>Đã sử dụng hết <strong>{{used_money}}.000 Vnd</strong> còn lại  <strong>{{plane.money - used_money}}.000 Vnd</strong></li>
+                </ul>
+              </div>
+            </div>
+       </div>
+       
+       <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="thumbnail"> 
+              <div class="caption" ng-hide="(plane.money-used_money) < 0 || planeStatus >= 0">
+                <h3 class="h-style">Trong {{totalDayPlane - used_completed_days}} ngày tiếp theo, mỗi ngày bạn chỉ được sử dụng 
+                {{(plane.money - used_money)/(totalDayPlane - used_completed_days)|number:1 }} Nghìn Vnd </h3>
+
+              </div>
+              
+              <div class="caption"  ng-hide="(plane.money-used_money) >= 0">
+                <h3 class="h-style text-warning">Kế hoạch thất bại</h3>
+                <p class="text-center">
+                    <strong>Bạn đã âm {{used_money - plane.money }} .000 Vnd</strong>
+                </p>
+              </div>
+              
+              <div class="caption"  ng-show="(plane.money-used_money) >= 0 && planeStatus >= 0">
+                <h3 class="h-style text-success">Kế hoạch thành công</h3>
+                <p class="text-left">
+                    Số tiền dự định cho kế hoạch : <span class="badge">{{plane.money}} .000 Vnd</span><br />
+                    Đã sử dụng hết <span class="badge">{{used_money }} .000 Vnd</span><br />
+                    Bạn còn dư <span class="badge">{{plane.money - used_money }} .000 Vnd</span>
+                </p>
+              </div>
+              
+            </div>
+       </div>
+       
+    </div>
+
+    
+</section>
+<section ng-hide="havePlane">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center"><button ng-click="updatePlaneViewPopup('add')" class="btn btn-primary btn-lg h-style">Bắt đầu kế hoạch</button></div>
+    </div>
+</section>

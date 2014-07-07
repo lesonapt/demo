@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script src="http://lesonapt.de:3000/socket.io/socket.io.js"></script>
+
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script>
+      var socket = io.connect('http://localhost:3000');
+      $(function() {
+        
+        var p = $( "#draggable" );
+        
+        $( "#draggable" ).draggable({
+          start: function() {
+            
+          },
+          drag: function() {
+            var offset = p.offset();
+            $('#view').html( "left: " + offset.left + ", top: " + offset.top );
+             socket.emit('send-msg', [offset.left, offset.top]); 
+          },
+          stop: function() {
+           
+          }
+        });
+        
+      });
+      // listten event from server
+      socket.on('new-msg', function(data) {
+        console.log(data);
+        $('#draggable').css({
+            marginLeft: data[0]+'px',
+            marginTop: data[1]+'px'
+        });
+      });
+  </script>
+</head>
+<body>
+ <div id="view"></div>
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+ 
+ 
+</body>
+</html>

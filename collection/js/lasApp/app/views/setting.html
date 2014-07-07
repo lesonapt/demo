@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-sx-12">
+          <h2 class="h-style">Thông tin tài khoản</h2>
+          <form class="form-horizontal"  name="settingForm" > 
+         
+                   <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Email</span>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="input-group">
+                            <div class="pull-left"> <input name="email" ng-model="userSetting.email" type="email" class="form-control input-md pull-left" disabled /></div>
+                            <div class="pull-left">&nbsp;<span class="glyphicon glyphicon-info-sign" rel="tooltip" data-original-title="Email không thể thay đổi"></span></div>
+                            <div class="clearfix"></div>
+                            <span ng-show="settingForm.email.$error.required">email requested</span>
+                        </div>
+                    </div>
+                  </div>
+                  
+                      
+                 <div class="form-group">
+                    <span  class="col-md-3 col-sm-3 control-label">Họ tên</span>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="pull-left">
+                            <div class="input-group">
+                                <input ng-model="userSetting.full_name" name="fullname" type="text" class="form-control input-md has-error" placeholder="Họ tên" required  />
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                  </div>
+                  
+                 
+                  <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Mật khẩu</span>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="input-group">
+                          <input ng-model="userSetting.password" type="password" class="form-control input-lg" placeholder="Mật khẩu"  required/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label">Nhập laị mật khẩu</span>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="input-group pull-left">
+                          <input ng-model="userSetting.rpassword" type="password" class="form-control input-lg" placeholder="Nhập lại mật khẩu" required />                        
+                        </div>
+                          <div class="pull-left">
+                            <span ng-show="submited && errorPass" class="text-danger" >&nbsp;Mật khẩu không khớp nhau</span>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <span for="inputEmail1" class="col-md-3 col-sm-3 control-label"></span>
+                    <div class="col-md-9 col-sm-9">
+                        <button ng-click="settingUpdate()" class="btn btn-primary btn-lg bnt-radius h-style">Cập nhật</button>
+                    </div>
+                  </div>
+           </form>       
+    </div>
+</div>
+ <script>
+        $(document).on('mouseenter','[rel=tooltip]', function(){
+            $(this).tooltip('show', 'right');
+        });           
+ </script> 

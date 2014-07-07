@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GallerySoft.info" />
+
+	<title>Untitled 1</title>
+</head>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $( function() {
+         $('.my-div').html('<div class="las" style="height: 234px; width: 123px; background: red;">asd</div>')
+         $(window).scroll(function(){
+                if( window.pageYOffset > 100 ) {
+                    $('#top').fadeIn(1000);
+                   // console.log( "pageXOffset: " + window.pageXOffset + ", pageYOffset: " + window.pageYOffset);   
+                }  else {
+                     $('#top').fadeOut(1000);
+                }
+         })
+         
+         window.onresize=function(){
+            console.log(window.innerWidth);
+         };
+        var p = $( ".las" );
+        //console.log( p.innerWidth() );
+        //console.log(p.innerHeight() );
+        var wiH = window.innerHeight ;
+        var wiW = window.innerWidth ;
+        var topH = $('#top').innerHeight()
+        var topW  = $('#top').innerWidth() ;
+       $('#top').css({
+            top: (wiH-topH)+'px',
+            left: (wiW-topW)-25+'px',
+       });
+       console.log(wiH-topH);
+       
+    })
+    
+    function toup() {
+        $("html, body").animate({ scrollTop: "0px" }, 500);
+    }
+</script>
+<style type="text/css">
+    body {min-height: 2000px; padding: 0px; margin: 0px;}
+</style>
+<body >
+    <div class="my-div" >  </div>
+    <div id="top" onclick="toup()" style="padding: 0px; background: blue; position: fixed; width: 50px; height: 50px; display: none;">top</div>
+</body>
+</html>

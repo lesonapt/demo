@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
+	<title>Media Responsive Web page</title>
+	
+
+        <style  type="text/css">
+        .bn {
+            display: none;
+        }
+        .banner1, .banner2, .banner3,.banner0 {
+            width: 100%;
+            height: 100px;
+        }
+            .banner0 {
+             background: yellow;
+          }
+          .banner1 {
+             background: red;
+          }
+          .banner2 {
+             background: blue;
+          }
+          .banner3 {
+             background: green;
+          }
+
+        
+          @media (min-width: 769px) { 
+            .banner3 {
+                display: block;
+            }
+           
+          }
+          
+          @media (min-width: 481px) and (max-width: 768px) {
+            
+            .banner2 {
+                display: block;
+            }
+            
+          } 
+
+          @media (min-width: 321px) and (max-width: 480px) {
+            .banner1 {
+                display: block;
+            }
+          }
+
+          @media (max-width: 320px) {
+              
+            .banner0 {
+                display: block;
+            }
+            
+          }
+
+	</style>
+	
+</head>
+
+<body>
+    <div class="banner0 bn"><h1>banner0</h1></div>
+    <div class="banner1 bn"><h1>banner1</h1></div>
+    <div class="banner2 bn"><h1>banner2</h1></div>
+    <div class="banner3 bn"><h1>banner3</h1></div>
+</body>
+</html>

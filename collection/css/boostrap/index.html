@@ -1,0 +1,189 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-theme.css" rel="stylesheet">
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="las.js"></script>
+    <script src="bootstrap.js"></script>
+    
+    <!-- color picker-->
+    <link rel="stylesheet" href="colorpicker/css/colorpicker.css" type="text/css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="colorpicker/css/layout.css" />
+    
+	<script type="text/javascript" src="colorpicker/js/jquery.js"></script>
+	<script type="text/javascript" src="colorpicker/js/colorpicker.js"></script>
+    <script type="text/javascript" src="colorpicker/js/eye.js"></script>
+    <script type="text/javascript" src="colorpicker/js/utils.js"></script>
+    <script type="text/javascript" src="colorpicker/js/layout.js?ver=1.0.2"></script>
+    <!-- -->
+   
+
+	<style>
+         body {
+            min-height: 1000px;
+         }
+         div {
+            padding: 0px; margin: 0px;
+         }
+		.border {
+            hieght: 50px;border-color: #463265; box-shadow: 0 1px 0 ;
+         }
+		::-webkit-scrollbar {
+			height: 12px;width: 8px;background: #fff;
+		}
+		::-webkit-scrollbar-thumb { 
+			background: #563d7c; 
+			-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); 
+		}
+        .container {
+             padding: 0px; margin: auto;
+        }
+        .row {
+            padding: 0px; margin: 0px;
+        }
+        img {
+            webkit-transition: all .5s linear;
+            -moz-transition: all .5s linear;
+            -o-transition: all .5s linear;
+            transition: all .5s linear;
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            width: 100%;
+        }
+      
+	</style>
+
+    <script type="text/javascript">
+     
+    //window.onscroll = scroll;
+//    function scroll () {
+//        if(window.pageYOffset >= 200) {
+//            
+//            //alert(window.pageYOffset)
+//            $('#view').animate({
+//                'left': '300px';
+//            }, 2000);
+//            //$(window).scrollTop(0, 1000);
+//            //$('html, body').animate({scrollTop:0}, 'slow');
+//        } else {
+//            $('#view').show();
+//        }
+//    }
+   $(function() {
+        $('[data-toggle="popover"]').popover();
+      //  $('body').on('click', function (e) {
+//        $('[data-toggle="popover"]').each(function () {
+//            //the 'is' for buttons that trigger popups
+//            //the 'has' for icons within a button that triggers a popup
+//            if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+//                $(this).popover('hide');
+//            }
+//        });
+//    });
+    var arr = [1,2,3,4,5];
+    console.log(arr);
+    arr.push(1);
+    console.log(arr);
+    
+    var index = arr.indexOf(1);
+  
+    if(index!=-1){
+       arr.splice(index, 1);
+    }
+    console.log(arr);
+   });
+  
+   
+</script>
+</head>
+<body >
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link1</a></li>
+        <li><a href="#">Link2</a></li>
+        <li class="dropdown"><a href="#" >link3</a></li >
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+    
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    <div class="container-fluid" style="margin: 0px 50px 0 50px;">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-6" style="border: 1px solid #eee;">
+                <span class="glyphicon glyphicon-search"></span>
+                <div>
+                    <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="" title="">Popover on top</button>
+                </div>
+                	<div id="colorSelector"><div style="background-color: #0000ff"></div></div>
+                <script>
+                    $('#colorSelector').ColorPicker({
+                    	color: '#0000ff',
+                    	onShow: function (colpkr) {
+                    		$(colpkr).fadeIn(500);
+                    		return false;
+                    	},
+                    	onHide: function (colpkr) {
+                    		$(colpkr).fadeOut(500);
+                    		return false;
+                    	},
+                    	onChange: function (hsb, hex, rgb) {
+                    		$('#colorSelector div').css('backgroundColor', '#' + hex);
+                    	}
+                    });
+                </script>
+                
+            </div> 
+            <div class="col-lg-10 col-md-10 col-sm-6" style="border: 1px solid #ddd;" >
+              <!-- Button trigger modal -->
+                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  Launch demo modal
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end model -->
+                
+                <img width="459" height="330" src="http://www.awwwards.com/media/cache/gallery_three_columns/screenshots/2014/02/5306524f5b7c1.jpeg" alt="100 Years of Design">
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

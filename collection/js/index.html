@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>File API</title>
+    <script src="http://localhost:3002/templates/client/style/js/jquery-1.11.0.min.js"></script>
+<script src="jquery.FileReader.js"></script>
+
+</head>
+<body>
+    <input type="file" id="filename" name="filename" value="" onChange="GetDiretory()">
+        <input type="hidden" id="Directory" name="Directory" value="">
+    <script type="text/javascript">
+       function GetDirectory()
+            {
+                strFile = document.FileForm.filename.value;
+                intPos = strFile.lastIndexOf("\\");
+                strDirectory = strFile.substring(0, intPos);
+                alert(strDirectory);
+                document.FileForm.Directory.value = strDirectory;
+            }
+
+       
+    </script>
+</body>
+</html>
