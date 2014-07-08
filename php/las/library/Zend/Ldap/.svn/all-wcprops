@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Filter.php
+END
+Dn.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Dn.php
+END
+Attribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Attribute.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Collection.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Exception.php
+END
+Converter.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Converter.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Node.php
+END

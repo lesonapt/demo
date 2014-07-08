@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Cloud/QueueService/Adapter
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Cloud/QueueService/Adapter/WindowsAzure.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Cloud/QueueService/Adapter/AbstractAdapter.php
+END
+ZendQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Cloud/QueueService/Adapter/ZendQueue.php
+END
+Sqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Cloud/QueueService/Adapter/Sqs.php
+END

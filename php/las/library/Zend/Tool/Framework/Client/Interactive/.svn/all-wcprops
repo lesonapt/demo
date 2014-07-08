@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive
+END
+OutputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive/OutputInterface.php
+END
+InputResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive/InputResponse.php
+END
+InputInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive/InputInterface.php
+END
+InputHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive/InputHandler.php
+END
+InputRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Framework/Client/Interactive/InputRequest.php
+END

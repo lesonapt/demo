@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/TimeSync
+END
+Sntp.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/TimeSync/Sntp.php
+END
+Protocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/TimeSync/Protocol.php
+END
+Ntp.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/TimeSync/Ntp.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/TimeSync/Exception.php
+END

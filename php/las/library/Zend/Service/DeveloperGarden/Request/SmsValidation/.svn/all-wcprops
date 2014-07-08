@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/SmsValidation
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/SmsValidation/Validate.php
+END
+SendValidationKeyword.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/SmsValidation/SendValidationKeyword.php
+END
+Invalidate.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/SmsValidation/Invalidate.php
+END
+GetValidatedNumbers.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/SmsValidation/GetValidatedNumbers.php
+END

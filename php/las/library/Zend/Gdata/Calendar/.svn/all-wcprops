@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar
+END
+EventEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar/EventEntry.php
+END
+EventFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar/EventFeed.php
+END
+ListFeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar/ListFeed.php
+END
+EventQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar/EventQuery.php
+END
+ListEntry.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Gdata/Calendar/ListEntry.php
+END

@@ -1,0 +1,123 @@
+10
+
+dir
+1474
+https://54.238.105.232/svn/jamshopping/02_Sourcecode/JamShopping/library/Zend/Feed/Reader/Extension
+https://54.238.105.232/svn/jamshopping
+
+
+
+2014-06-04T04:49:06.353930Z
+28
+giangnt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+32ab7a6b-4da3-8947-8c01-8696fe3fcd7f
+
+Atom
+dir
+
+Content
+dir
+
+CreativeCommons
+dir
+
+DublinCore
+dir
+
+EntryAbstract.php
+file
+
+
+
+
+2014-06-04T06:17:43.617000Z
+9a3acbf8d4e923f4b72b105861b86b20
+2014-06-04T04:49:06.353930Z
+28
+giangnt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4619
+
+FeedAbstract.php
+file
+
+
+
+
+2014-06-04T06:17:43.645000Z
+fd68b9af5365fa47704dee07f29ed635
+2014-06-04T04:49:06.353930Z
+28
+giangnt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4030
+
+Podcast
+dir
+
+Slash
+dir
+
+Syndication
+dir
+
+Thread
+dir
+
+WellFormedWeb
+dir
+

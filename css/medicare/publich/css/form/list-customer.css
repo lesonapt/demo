@@ -1,0 +1,24 @@
+.table {
+    margin-bottom: 0px;
+}
+.las {
+    overflow-y: auto;
+    height: auto;
+    margin-top: -1px;
+    position: relative;
+}
+.table.tb-body tr:hover td {
+	background-color: #efefef;
+}
+.paging_number {
+	margin-left: 10px;
+}
+.table>tbody>tr.odd {
+    background-color: #f9f9f9;
+}
+.table>tbody>tr.even {
+    background-color: white;
+}
+.green_text {
+	color: green;
+}

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Client.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Exception.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Request.php
+END
+Value.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Value.php
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Response.php
+END
+Fault.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Fault.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/XmlRpc/Server.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf
+END
+Constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf/Constants.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf/Exception.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf/Request.php
+END
+Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf/Response.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Amf/Server.php
+END

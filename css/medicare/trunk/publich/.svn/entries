@@ -1,40 +1,0 @@
-10
-
-dir
-20
-http://ans-asia-srv:8888/svn/medicare/trunk/publich
-http://ans-asia-srv:8888/svn/medicare
-
-
-
-2014-07-05T07:55:35.904988Z
-20
-canhnh
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-4afff938-e715-074b-b951-85eeb974ef05
-
-css
-dir
-
-fonts
-dir
-
-images
-dir
-
-js
-dir
-

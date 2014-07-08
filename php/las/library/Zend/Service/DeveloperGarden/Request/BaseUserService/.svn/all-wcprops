@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/BaseUserService
+END
+GetQuotaInformation.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/BaseUserService/GetQuotaInformation.php
+END
+ChangeQuotaPool.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/BaseUserService/ChangeQuotaPool.php
+END
+GetAccountBalance.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Request/BaseUserService/GetAccountBalance.php
+END

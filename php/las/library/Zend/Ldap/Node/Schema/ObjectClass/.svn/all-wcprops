@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Node/Schema/ObjectClass
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Node/Schema/ObjectClass/ActiveDirectory.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Node/Schema/ObjectClass/Interface.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Ldap/Node/Schema/ObjectClass/OpenLdap.php
+END

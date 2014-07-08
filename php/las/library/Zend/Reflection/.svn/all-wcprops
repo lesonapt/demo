@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection
+END
+Class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Class.php
+END
+Function.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Function.php
+END
+Parameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Parameter.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/File.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Extension.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Exception.php
+END
+Method.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Method.php
+END
+Docblock.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Docblock.php
+END
+Property.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Reflection/Property.php
+END

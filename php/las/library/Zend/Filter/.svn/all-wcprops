@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter
+END
+StringToUpper.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/StringToUpper.php
+END
+StripNewlines.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/StripNewlines.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Interface.php
+END
+Alnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Alnum.php
+END
+BaseName.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/BaseName.php
+END
+Alpha.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Alpha.php
+END
+Compress.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Compress.php
+END
+RealPath.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/RealPath.php
+END
+Decompress.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Decompress.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Callback.php
+END
+Encrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Encrypt.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Digits.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Null.php
+END
+Boolean.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Boolean.php
+END
+NormalizedToLocalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/NormalizedToLocalized.php
+END
+Input.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Input.php
+END
+HtmlEntities.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/HtmlEntities.php
+END
+LocalizedToNormalized.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/LocalizedToNormalized.php
+END
+Decrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Decrypt.php
+END
+Dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Dir.php
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Inflector.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Int.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/Exception.php
+END
+PregReplace.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/PregReplace.php
+END
+StripTags.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/StripTags.php
+END
+StringTrim.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/StringTrim.php
+END
+StringToLower.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Filter/StringToLower.php
+END

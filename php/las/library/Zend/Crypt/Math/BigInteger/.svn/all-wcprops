@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Crypt/Math/BigInteger
+END
+Bcmath.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Crypt/Math/BigInteger/Bcmath.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Crypt/Math/BigInteger/Interface.php
+END
+Gmp.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Crypt/Math/BigInteger/Gmp.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Crypt/Math/BigInteger/Exception.php
+END

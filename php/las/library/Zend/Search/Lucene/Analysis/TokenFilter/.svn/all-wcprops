@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Analysis/TokenFilter
+END
+StopWords.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Analysis/TokenFilter/StopWords.php
+END
+ShortWords.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Analysis/TokenFilter/ShortWords.php
+END
+LowerCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Analysis/TokenFilter/LowerCase.php
+END
+LowerCaseUtf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Analysis/TokenFilter/LowerCaseUtf8.php
+END

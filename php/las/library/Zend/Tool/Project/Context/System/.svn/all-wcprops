@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System
+END
+NotOverwritable.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/NotOverwritable.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/Interface.php
+END
+ProjectProfileFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/ProjectProfileFile.php
+END
+ProjectProvidersDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/ProjectProvidersDirectory.php
+END
+ProjectDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/ProjectDirectory.php
+END
+TopLevelRestrictable.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Tool/Project/Context/System/TopLevelRestrictable.php
+END

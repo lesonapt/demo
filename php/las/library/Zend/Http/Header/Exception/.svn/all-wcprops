@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Http/Header/Exception
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Http/Header/Exception/RuntimeException.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Http/Header/Exception/InvalidArgumentException.php
+END

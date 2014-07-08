@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/Interface.php
+END
+SecurityTokenResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/SecurityTokenResponse.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/Exception.php
+END
+GetTokensResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/GetTokensResponse.php
+END

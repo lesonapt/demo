@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator
+END
+SerializableLimitIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/SerializableLimitIterator.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Exception.php
+END
+AdapterAggregate.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/AdapterAggregate.php
+END

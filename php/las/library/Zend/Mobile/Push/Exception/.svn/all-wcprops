@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception
+END
+InvalidPayload.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/InvalidPayload.php
+END
+InvalidTopic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/InvalidTopic.php
+END
+InvalidAuthToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/InvalidAuthToken.php
+END
+QuotaExceeded.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/QuotaExceeded.php
+END
+ServerUnavailable.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/ServerUnavailable.php
+END
+InvalidRegistration.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/InvalidRegistration.php
+END
+InvalidToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/InvalidToken.php
+END
+DeviceQuotaExceeded.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Mobile/Push/Exception/DeviceQuotaExceeded.php
+END

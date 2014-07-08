@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding
+END
+Storefront.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/Storefront.php
+END
+Aspect.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/Aspect.php
+END
+PaginationOutput.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/PaginationOutput.php
+END
+ShippingInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/ShippingInfo.php
+END
+SellerInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/SellerInfo.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/Category.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/Exception.php
+END
+SellingStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/SellingStatus.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/Abstract.php
+END
+ListingInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/Ebay/Finding/ListingInfo.php
+END

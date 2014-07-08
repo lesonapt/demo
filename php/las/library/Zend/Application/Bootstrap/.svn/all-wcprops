@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap
+END
+ResourceBootstrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap/ResourceBootstrapper.php
+END
+Bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap/Bootstrap.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap/Exception.php
+END
+Bootstrapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap/Bootstrapper.php
+END
+BootstrapAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Application/Bootstrap/BootstrapAbstract.php
+END

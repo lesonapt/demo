@@ -1,0 +1,109 @@
+/*
+* link
+*/
+a:hover, a:focus {
+	color: #009476;
+}
+
+/*
+* Theme box
+*/
+.theme {
+	background: #41B39C;
+}
+.theme .theme-box {	
+	background: rgba(65, 179, 156, 0.33);
+	border: 2px solid #5D9C90;
+}
+.theme .theme-box .theme-button {
+	border: 2px solid #5D9C90;
+	background: #41b39c;
+}
+
+/*
+* .navbar-inverse
+*/
+.navbar-inverse {
+	background-color: #41B39C;
+	border-color: #41B39C;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #009476;
+}
+.navbar-nav li.chilr1 a:hover {
+	background-color: #009476;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #009476;
+	color: #fff;
+}
+
+
+
+/*
+* Form control
+*/
+.form-control:focus {
+	border-color: #1abc9c;
+}
+.form-control {
+	border: 1px solid #bdc3c7;
+	color: #34495e;
+}
+
+/*
+* button
+*/
+.btn-primary {
+	background-color: #41B39C;
+	border-color: #27B498;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #3EA792;
+	border-color: #279982;
+}
+
+/*
+* Label i
+*/
+label.act span, label.act i.fa {
+	color: #1ABC9C;
+}
+.check-box label.checked i:before {
+	color: #1abc9c;
+}
+.check-box label.checked span {
+	color: #1abc9c;
+}
+
+/*
+* DatePiker
+*/
+.ui-widget-header {
+	background: #41B39C!important;
+}
+.ui-state-default:hover {
+	border: 1px solid #41B39C!important;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	border: 1px solid #41B39C!important;
+	outline: solid #41B39C 1px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: #86D6C6!important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #41B39C!important;
+	background: #86D6C6!important;
+}
+
+/*
+* pagination
+*/
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+	color: #009476;
+}
+.pagination>li>a.active {
+	color: #009476;
+}

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Index/SegmentWriter
+END
+DocumentWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Index/SegmentWriter/DocumentWriter.php
+END
+StreamWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Search/Lucene/Index/SegmentWriter/StreamWriter.php
+END

@@ -1,14 +1,14 @@
 10
 
 dir
-20
+59
+http://ans-asia-srv:8888/svn/medicare/trunk
 http://ans-asia-srv:8888/svn/medicare
-http://ans-asia-srv:8888/svn/medicare
 
 
 
-2014-07-05T07:55:35.904988Z
-20
+2014-07-07T11:01:20.641194Z
+59
 canhnh
 
 
@@ -26,16 +26,16 @@ svn:special svn:externals svn:needs-lock
 
 4afff938-e715-074b-b951-85eeb974ef05
 
-.buildpath
+__index.php
 file
 
 
 
 
-2014-07-05T02:48:53.626000Z
-8b0275ec8e974f5a5a51c49dbe447843
-2014-07-05T05:23:28.802938Z
-12
+2014-07-05T08:24:33.188000Z
+deb63ced6e596e0b63fd46718df7b622
+2014-07-05T10:18:22.566965Z
+22
 canhnh
 
 
@@ -58,18 +58,123 @@ canhnh
 
 
 
-174
+22181
 
-.project
+bootstrap
+dir
+
+customer-detail.php
+file
+62
+
+
+
+2014-07-08T07:56:42.068000Z
+9280ef1a441bc8de642e49714e656c9a
+2014-07-08T09:09:12.865029Z
+62
+sonla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+62998
+
+customer-input.php
+file
+62
+
+
+
+2014-07-08T09:02:46.955000Z
+63ea176c91a0a782ef58858808d44c84
+2014-07-08T09:09:12.865029Z
+62
+sonla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23123
+
+index.php
+file
+64
+
+
+
+2014-07-08T09:20:10.157000Z
+901ef225b6521b4e85c6285e27444cb0
+2014-07-08T09:20:49.788604Z
+64
+sonla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29663
+
+medicare.rar
 file
 
 
 
 
-2014-07-05T02:48:53.627000Z
-a4bcda292d4a9f1613aa06e9ff7e88a5
-2014-07-05T05:23:28.802938Z
-12
+2014-07-05T02:48:53.312000Z
+1d62fcf1b9952f933bf5d2a736bfb628
+2014-07-04T12:17:23.469107Z
+2
 canhnh
 has-props
 
@@ -92,24 +197,21 @@ has-props
 
 
 
-518
+246604
 
-.settings
+publich
 dir
 
-branches
-dir
-
-index.php
+web.config
 file
 
 
 
 
-2014-07-05T02:48:53.629000Z
-f84214fc43f665c79b92dc7a092b364f
-2014-07-05T05:23:28.802938Z
-12
+2014-07-05T02:48:52.720000Z
+f0c1d65ad96b419deceb1d3659c1b127
+2014-07-04T12:17:23.469107Z
+2
 canhnh
 
 
@@ -132,11 +234,5 @@ canhnh
 
 
 
-7
-
-tags
-dir
-
-trunk
-dir
+978
 

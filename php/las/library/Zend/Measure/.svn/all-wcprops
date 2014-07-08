@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Weight.php
+END
+Current.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Current.php
+END
+Volume.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Volume.php
+END
+Frequency.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Frequency.php
+END
+Acceleration.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Acceleration.php
+END
+Binary.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Binary.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Abstract.php
+END
+Power.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Power.php
+END
+Pressure.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Pressure.php
+END
+Length.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Length.php
+END
+Speed.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Speed.php
+END
+Energy.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Energy.php
+END
+Density.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Density.php
+END
+Number.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Number.php
+END
+Torque.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Torque.php
+END
+Force.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Force.php
+END
+Time.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Time.php
+END
+Lightness.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Lightness.php
+END
+Area.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Area.php
+END
+Capacitance.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Capacitance.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Exception.php
+END
+Illumination.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Illumination.php
+END
+Angle.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Angle.php
+END
+Temperature.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Measure/Temperature.php
+END

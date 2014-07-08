@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/Null.php
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/Array.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/Interface.php
+END
+DbSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/DbSelect.php
+END
+DbTableSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/DbTableSelect.php
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Paginator/Adapter/Iterator.php
+END

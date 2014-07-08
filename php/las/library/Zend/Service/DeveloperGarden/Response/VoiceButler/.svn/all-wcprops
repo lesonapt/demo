@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler
+END
+NewCallSequencedResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/NewCallSequencedResponse.php
+END
+VoiceButlerAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/VoiceButlerAbstract.php
+END
+NewCallResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/NewCallResponse.php
+END
+CallStatusResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/CallStatusResponse.php
+END
+TearDownCallResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/TearDownCallResponse.php
+END
+CallStatus2Response.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/DeveloperGarden/Response/VoiceButler/CallStatus2Response.php
+END

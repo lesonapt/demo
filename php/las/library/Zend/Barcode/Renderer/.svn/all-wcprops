@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer/Image.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer/Exception.php
+END
+Pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer/Pdf.php
+END
+Svg.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer/Svg.php
+END
+RendererAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Barcode/Renderer/RendererAbstract.php
+END

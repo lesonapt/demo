@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine
+END
+Package.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/Package.php
+END
+Certificate.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/Certificate.php
+END
+GetAsynchronousOperation.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/GetAsynchronousOperation.php
+END
+Storage.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/Storage.php
+END
+Deployment.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/Deployment.php
+END
+Service.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/CommandLine/Service.php
+END

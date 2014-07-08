@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/RetryPolicy
+END
+RetryN.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/RetryPolicy/RetryN.php
+END
+NoRetry.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/RetryPolicy/NoRetry.php
+END
+RetryPolicyAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/RetryPolicy/RetryPolicyAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/jamshopping/!svn/ver/28/02_Sourcecode/JamShopping/library/Zend/Service/WindowsAzure/RetryPolicy/Exception.php
+END
