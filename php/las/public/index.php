@@ -3,6 +3,9 @@
 // Define path to application directory
 defined('APPLICATION_PATH')
     || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../application'));
+// Define path to public directory
+    defined('PUBLIC_PATH')
+    || define('PUBLIC_PATH', realpath(dirname(__FILE__) . '/../public'));
 
 // Define application environment
 defined('APPLICATION_ENV')
