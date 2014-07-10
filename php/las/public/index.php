@@ -22,7 +22,7 @@ $application = new Zend_Application(
     APPLICATION_ENV,
     APPLICATION_PATH . '/configs/application.ini'
 );
-Zend_Controller_Front::getInstance()->setParam('bootstrap', $bootstrap);
+//Zend_Controller_Front::getInstance()->setParam('bootstrap', $bootstrap);
 $application->bootstrap()
             ->run();
 

@@ -10,7 +10,12 @@ class Admin_ProductController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+    	  $muser= new Model_User;
+        $data=$muser->listall();
+        echo "<pre>";
+        print_r($data);
+        echo "</pre>";
+ 
     }
 
 
