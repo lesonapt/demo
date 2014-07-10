@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata
+END
+MediaMimeStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/MediaMimeStream.php
+END
+AuthSub.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/AuthSub.php
+END
+Gbase.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Gbase.php
+END
+Gapps.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Gapps.php
+END
+Docs.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Docs.php
+END
+Health.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Health.php
+END
+Feed.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Feed.php
+END
+Calendar.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Calendar.php
+END
+ClientLogin.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/ClientLogin.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Extension.php
+END
+DublinCore.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/DublinCore.php
+END
+App.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/App.php
+END
+Photos.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Photos.php
+END
+YouTube.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/YouTube.php
+END
+Media.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Media.php
+END
+Analytics.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Analytics.php
+END
+Spreadsheets.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Spreadsheets.php
+END
+MimeBodyString.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/MimeBodyString.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Query.php
+END
+Books.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Books.php
+END
+HttpAdapterStreamingSocket.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/HttpAdapterStreamingSocket.php
+END
+Exif.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Exif.php
+END
+MimeFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/MimeFile.php
+END
+Geo.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Geo.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/Entry.php
+END
+HttpAdapterStreamingProxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/HttpAdapterStreamingProxy.php
+END
+HttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Gdata/HttpClient.php
+END

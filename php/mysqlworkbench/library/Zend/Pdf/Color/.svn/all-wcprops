@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Color
+END
+GrayScale.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Color/GrayScale.php
+END
+Html.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Color/Html.php
+END
+Cmyk.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Color/Cmyk.php
+END
+Rgb.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Color/Rgb.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push
+END
+Mpns.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Mpns.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Interface.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception.php
+END
+Gcm.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Gcm.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Abstract.php
+END
+Apns.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Apns.php
+END

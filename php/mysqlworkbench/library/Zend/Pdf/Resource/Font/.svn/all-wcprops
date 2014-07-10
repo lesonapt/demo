@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font
+END
+Type0.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font/Type0.php
+END
+CidFont.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font/CidFont.php
+END
+FontDescriptor.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font/FontDescriptor.php
+END
+Extracted.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font/Extracted.php
+END
+Simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Pdf/Resource/Font/Simple.php
+END

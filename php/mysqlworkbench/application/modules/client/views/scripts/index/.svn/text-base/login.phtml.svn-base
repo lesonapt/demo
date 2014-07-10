@@ -1,0 +1,29 @@
+<div class="content-group">
+	<div class="login">
+		<div class="title-login">Login</div>
+		<table class="box-form">
+			<tbody>
+				<tr>
+					<td class="form-label">User ID</td>
+					<td class="form-control"><input class="inputLogin" id="UserId" type="text" onkeydown="keyDown(event);"
+						name="userId" /> <br> <font color="red" size="2em"> </font>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label">Password</td>
+					<td class="form-control"><input class="inputLogin" id="Password" type="password" onkeydown="keyDown(event);"
+						name="password" /> <br> <font color="red" size="2em"> </font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right" colspan=2><button class="btnLogin" onclick="login()">OK</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script src="/public/js/login.js?<?php echo time();?>" type="text/javascript"></script>
+<script>
+_backurl = '<?php echo $this->backurl?>';
+</script>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management
+END
+OperatingSystemFamilyInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/OperatingSystemFamilyInstance.php
+END
+LocationInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/LocationInstance.php
+END
+ServiceEntityAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/ServiceEntityAbstract.php
+END
+DeploymentInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/DeploymentInstance.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/Client.php
+END
+AffinityGroupInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/AffinityGroupInstance.php
+END
+CertificateInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/CertificateInstance.php
+END
+OperationStatusInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/OperationStatusInstance.php
+END
+StorageServiceInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/StorageServiceInstance.php
+END
+SubscriptionOperationInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/SubscriptionOperationInstance.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/Exception.php
+END
+HostedServiceInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/HostedServiceInstance.php
+END
+OperatingSystemInstance.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Service/WindowsAzure/Management/OperatingSystemInstance.php
+END

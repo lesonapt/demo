@@ -1,0 +1,156 @@
+<div style="height: 32px">
+	<h2 style="margin-bottom: 10px; float: left !important">Edit Customer</h2>
+	<button class="button back" type="button"
+		style="float: right; margin-right: 0px !important;"
+		onclick="location.href='/customer/index<?php if(isset($this->keyword)) echo '/keyword/'.$this->keyword?>'">Back</button>
+	<button id="save" class="button save" type="button"
+		style="float: right;">Save</button>
+	<?php if($this->mode == 'edit'){?>
+	<button id="deleteCustomer" class="button delete" type="button"
+		style="float:right">Delete</button>
+	<button class="button add" type="button" style="float: right;"
+		onclick="location.href='/customer/edit<?php if(isset($this->keyword)) echo '/keyword/'.$this->keyword?>'">Add Customer</button>
+	<?php }?>
+	<button class="button reset" type="button" style="float: right;"
+		onclick="location.reload()">Reset</button>
+</div>
+<div class="center-box">
+	<div class="left">
+		<table class="box-form">
+			<tbody>
+				<tr>
+					<td class="label">Customer ID</td>
+					<td><input type="text" id="customerId" class="input-text number"
+						style="width: 30px; text-align: right"
+						<?php if($this->data[0]['CustomerId'] != '') {echo 'disabled';}?>
+						maxlength="4"
+						value="<?php if($this->data[0]['CustomerId'] != '') echo sprintf("%04d", $this->data[0]['CustomerId'])?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Name</td>
+					<td><input type="text" id="customerName" class="input-text"
+						style="width: 300px;" maxlength="50"
+						value="<?php echo $this->data[0]['CustomerName']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Kana Name</td>
+					<td><input type="text" id="kanaName" class="input-text"
+						style="width: 300px;" maxlength="50"
+						value="<?php echo $this->data[0]['CustomerNameKana']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Short Name</td>
+					<td><input type="text" id="shortName" class="input-text"
+						style="width: 300px;" maxlength="50"
+						value="<?php echo $this->data[0]['CustomerShortName']?>">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="left" style="border-left: solid 2px #dcddde;">
+		<table class="box-form">
+			<tbody>
+				<tr>
+					<td class="label">Post Code</td>
+					<td><input type="text" id="postCode" class="input-text number"
+						style="width: 60px; text-align: right" maxlength="8"
+						value="<?php echo $this->data[0]['PostCode']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Address Line 1</td>
+					<td><input type="text" id="address1" class="input-text"
+						style="width: 300px;" maxlength="50"
+						value="<?php echo $this->data[0]['Address1']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Address Line 2</td>
+					<td><input type="text" id="address2" class="input-text"
+						style="width: 300px;" maxlength="50"
+						value="<?php echo $this->data[0]['Address2']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Tel</td>
+					<td><input type="text" id="tel" class="input-text number"
+						style="width: 300px;" maxlength="10"
+						value="<?php echo $this->data[0]['Tel']?>">
+					</td>
+				</tr>
+				<tr>
+					<td class="label">Fax</td>
+					<td><input type="text" id="fax" class="input-text number"
+						style="width: 300px;" maxlength="40"
+						value="<?php echo $this->data[0]['Fax']?>">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div class="list-button">
+	<button id="add-row" class="button add" type="button">Add row</button>
+	<button id="insertRow" class="button insert" type="button">Insert row</button>
+	<button id="delete" class="button delete" type="button">Delete</button>
+</div>
+<div id="data-table-2" class="data-table-2">
+	<table class="FixedTables" id="table-info">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Staff ID</th>
+				<th>Staff Name</th>
+				<th>Kana Name</th>
+				<th>Department</th>
+				<th>Email</th>
+				<th>Position</th>
+				<th>Note</th>
+			</tr>
+		</thead>
+		<tbody id="body-result">
+			<?php if(isset($this->staffs)):?>
+			<?php foreach ($this->staffs as $staff) : ?>
+			<tr onmouseout="hidetip()"
+				onmouseover="showtip('<?php
+					echo 'Created by '. $staff["CreatedUserId"]. ' on '.date_format(date_create($staff["CreatedDate"]), 'Y-m-d');
+					if($staff["UpdatedDate"] != ''){
+						echo '<br/>'.'Updated by '. $staff["UpdatedUserId"]. ' on '.date_format(date_create($staff["UpdatedDate"]), 'Y-m-d');
+					}
+					?>')">
+				<td><input type="checkbox"></td>
+				<td><span class="staff-id"><?php echo $staff['StaffId']; ?> </span></td>
+				<td><input type="text" class="staffName" maxlength="50"
+					value="<?php echo html_entity_decode($staff['StaffName']); ?>"></td>
+				<td><input type="text" class="staffNameKana" maxlength="50"
+					value="<?php echo html_entity_decode($staff['StaffNameKana']); ?>"></td>
+				<td><input type="text" class="staffDepartment" maxlength="50"
+					value="<?php echo html_entity_decode($staff['StaffDepartment']); ?>">
+				</td>
+				<td><input type="text" class="email" maxlength="50"
+					value="<?php echo $staff['Email']; ?>"></td>
+				<td><input type="text" class="staffPosition" maxlength="20"
+					value="<?php echo html_entity_decode($staff['StaffPosition']); ?>"></td>
+				<td><input type="text" class="note" maxlength="20"
+					value="<?php echo html_entity_decode($staff['Note']); ?>"></td>
+			</tr>
+			<?php endforeach; endif;?>
+		</tbody>
+	</table>
+</div>
+<div class="center-box"
+	style="height: 100px !important; padding: 0px !important">
+	<div class="note-area">
+		<span style="float: left; margin-right: 10px;">Note</span>
+		<textarea id="customer-note" style="width: 95%; height: 100%"><?php echo html_entity_decode($this->data[0]['Note'])?></textarea>
+	</div>
+</div>
+<script src="/public/js/m0021.js?<?php echo time();?>" type="text/javascript"></script>
+<script>
+var _mode = '<?php echo $this->mode?>';
+var _customerId = <?php if(isset($this->customerId)) echo $this->customerId; else echo 0;?>;
+</script>

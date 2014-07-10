@@ -1,0 +1,70 @@
+<h2 style="margin-bottom: 10px;">Manage User</h2>
+<div class="list-button">
+	<button id="add-row" class="button add" type="button">Add row</button>
+	<button id="insertRow" class="button insert" type="button">Insert row</button>
+	<button id="delete" class="button delete" type="button">Delete</button>
+	<button id="save" class="button save" type="button">Save</button>
+</div>
+<table class="table-list">
+	<tbody>
+		<tr>
+			<th width="20px"></th>
+			<th width="156px">User ID</th>
+			<th width="126px">Password</th>
+			<th width="76px">Permission</th>
+			<th width="126px">PC ID</th>
+			<th width="126px">PC Name</th>
+			<th width="100px">Language</th>
+			<th>Delete</th>
+		</tr>
+	</tbody>
+</table>
+<div class="list-body-table">
+	<table id="customer-table" class="table-list">
+		<tbody>
+			<?php foreach ($this->data as $row) : ?>
+			<tr onmouseout="hidetip()"
+				onmouseover="showtip('<?php
+				echo 'Created by '. $row["CreatedUserId"]. ' on '.date_format(date_create($row["CreatedDate"]), 'Y-m-d');
+				if($row["UpdatedDate"] != ''){
+					echo '<br/>'.'Updated by '. $row["UpdatedUserId"]. ' on '.date_format(date_create($row["UpdatedDate"]), 'Y-m-d');
+				}
+				?>')">
+				<td width="20px"><input type="checkbox" name="checkbox">
+				</td>
+				<td width="156px"><input type="text" name="userId" class="userId"
+					style="width: 150px;" maxlength="30"
+					value="<?php echo $row['UserId']; ?>">
+				</td>
+				<td width="126px"><input type="text" name="password"
+					class="password" style="width: 120px;" maxlength="30"
+					value="<?php echo $row['Password']; ?>">
+				</td>
+				<td width="76px"><input type="text" name="permission"
+					class="permission number" style="width: 70px;" maxlength="2"
+					value="<?php echo $row['PermissionCode']; ?>"></td>
+				<td width="126px"><input type="text" name="pcId" class="pcId"
+					style="width: 120px;" maxlength="30"
+					value="<?php echo html_entity_decode($row['PcId']); ?>">
+				</td>
+				<td width="126px"><input type="text" name="pcName" class="pcName"
+					style="width: 120px;" maxlength="30"
+					value="<?php echo html_entity_decode($row['PcName']); ?>">
+				</td>
+				<td width="100px"><select name="language" class="language">
+						<option value="1"
+						<?php if($row['Language']=='1')echo 'selected'?>>Japanese</option>
+						<option value="2"
+						<?php if($row['Language']=='2')echo 'selected'?>>English</option>
+				</select></td>
+				<td align="center">
+					<button class="delete-button" onclick="deleteBtnClick($(this));">
+						<img src="/templates/client/default/images/Recycle.png">
+					</button>
+				</td>
+			</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+</div>
+<script src="public/js/m0010.js?<?php echo time();?>" type="text/javascript"></script>

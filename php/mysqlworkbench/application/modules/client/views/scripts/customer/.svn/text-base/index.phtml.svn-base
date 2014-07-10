@@ -1,0 +1,57 @@
+<div style="height: 32px">
+	<h2 style="margin-bottom: 10px; float: left !important">Customer List</h2>
+	<button id="search" class="search-button" type="button"></button>
+	<input type="text" id="search-input" class="search-box" maxlength="30"
+		placeholder="Search" onkeypress="keyDown(event)"
+		value="<?php echo $this->keyword;?>">
+</div>
+<div class="list-button">
+	<button id="add-row" class="button add" type="button"
+		onclick="location.href='/customer/edit/<?php if(isset($this->keyword)) echo 'keyword/'.$this->keyword?>'">Add</button>
+	<button id="delete" class="button delete" type="button">Delete</button>
+</div>
+<table class="table-list">
+	<tbody>
+		<tr>
+			<th width="20px"></th>
+			<th width="36px">ID</th>
+			<th width="126px">Name</th>
+			<th width="126px">Kana Name</th>
+			<th width="126px">Short Name</th>
+			<th width="126px">Tel</th>
+		</tr>
+	</tbody>
+</table>
+<div class="list-body-table">
+	<table id="customer-table" class="table-list">
+		<tbody>
+			<?php foreach ($this->data as $row) : ?>
+			<tr onmouseout="hidetip()"
+				onmouseover="showtip('<?php
+					echo 'Created by '. $row["CreatedUserId"]. ' on '.date_format(date_create($row["CreatedDate"]), 'Y-m-d');
+					if($row["UpdatedDate"] != ''){
+						echo '<br/>'.'Updated by '. $row["UpdatedUserId"]. ' on '.date_format(date_create($row["UpdatedDate"]), 'Y-m-d');
+					}
+					?>')">
+				<td width="20px"><input type="checkbox" name="checkbox">
+				</td>
+				<td width="36px" style="text-align: right;"><a
+					href="/customer/edit/id/<?php echo $row['CustomerId']; if(isset($this->keyword)) echo '/keyword/'.$this->keyword?>"><?php echo sprintf("%04d", $row['CustomerId']); ?>
+				</a>
+				</td>
+				<td width="126px"><a
+					href="/customer/edit/id/<?php echo $row['CustomerId']; if(isset($this->keyword)) echo '/keyword/'.$this->keyword?>"><?php echo html_entity_decode($row['CustomerName']); ?>
+				</a>
+				</td>
+				<td width="126px"><?php echo html_entity_decode($row['CustomerNameKana']); ?>
+				</td>
+				<td width="126px"><?php echo html_entity_decode($row['CustomerShortName']); ?>
+				</td>
+				<td width="126px"><?php echo $row['Tel']; ?>
+				</td>
+			</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+</div>
+<script src="/public/js/m0020.js?<?php echo time();?>" type="text/javascript"></script>

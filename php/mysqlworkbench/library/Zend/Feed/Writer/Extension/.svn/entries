@@ -1,0 +1,117 @@
+10
+
+dir
+39
+http://192.168.5.222:8888/svn/mysql/trunk/training/library/Zend/Feed/Writer/Extension
+http://192.168.5.222:8888/svn/mysql
+
+
+
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66e6b13e-0f4f-1e49-92e4-4d875f53c6ad
+
+Atom
+dir
+
+Content
+dir
+
+DublinCore
+dir
+
+ITunes
+dir
+
+RendererAbstract.php
+file
+
+
+
+
+2014-03-10T07:21:54.844000Z
+8f875733be64266af38e532e487a586d
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3834
+
+RendererInterface.php
+file
+
+
+
+
+2014-03-10T07:21:55.134000Z
+423de3657d12163567e33a433f0e8387
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1642
+
+Slash
+dir
+
+Threading
+dir
+
+WellFormedWeb
+dir
+

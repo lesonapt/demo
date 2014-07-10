@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mysql/!svn/ver/36/trunk/training/application/modules/client/controllers
+END
+UserController.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mysql/!svn/ver/36/trunk/training/application/modules/client/controllers/UserController.php
+END
+CustomerController.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mysql/!svn/ver/36/trunk/training/application/modules/client/controllers/CustomerController.php
+END
+IndexController.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mysql/!svn/ver/36/trunk/training/application/modules/client/controllers/IndexController.php
+END

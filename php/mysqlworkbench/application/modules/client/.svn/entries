@@ -1,0 +1,34 @@
+10
+
+dir
+39
+http://192.168.5.222:8888/svn/mysql/trunk/training/application/modules/client
+http://192.168.5.222:8888/svn/mysql
+
+
+
+2013-10-03T08:54:22.815149Z
+37
+hoangpt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66e6b13e-0f4f-1e49-92e4-4d875f53c6ad
+
+controllers
+dir
+
+views
+dir
+

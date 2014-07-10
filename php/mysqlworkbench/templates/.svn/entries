@@ -1,0 +1,34 @@
+10
+
+dir
+39
+http://192.168.5.222:8888/svn/mysql/trunk/training/templates
+http://192.168.5.222:8888/svn/mysql
+
+
+
+2013-10-03T06:48:17.279425Z
+36
+hoangpt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66e6b13e-0f4f-1e49-92e4-4d875f53c6ad
+
+admin
+dir
+
+client
+dir
+

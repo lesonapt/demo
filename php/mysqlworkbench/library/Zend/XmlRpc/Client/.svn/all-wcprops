@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client
+END
+HttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/HttpException.php
+END
+ServerIntrospection.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/ServerIntrospection.php
+END
+ServerProxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/ServerProxy.php
+END
+FaultException.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/FaultException.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/Exception.php
+END
+IntrospectException.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/XmlRpc/Client/IntrospectException.php
+END

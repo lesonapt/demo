@@ -1,0 +1,71 @@
+10
+
+dir
+39
+http://192.168.5.222:8888/svn/mysql/trunk/training/library/Zend/Wildfire
+http://192.168.5.222:8888/svn/mysql
+
+
+
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66e6b13e-0f4f-1e49-92e4-4d875f53c6ad
+
+Channel
+dir
+
+Exception.php
+file
+
+
+
+
+2014-03-10T07:22:20.238000Z
+32b655aa3b23d1e8e89115fd96d4b97a
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1092
+
+Plugin
+dir
+
+Protocol
+dir
+

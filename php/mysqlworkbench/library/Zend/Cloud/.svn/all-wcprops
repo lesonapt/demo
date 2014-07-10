@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud
+END
+AbstractFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/AbstractFactory.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/Exception.php
+END
+OperationNotAvailableException.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/OperationNotAvailableException.php
+END

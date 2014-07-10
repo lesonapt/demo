@@ -1,0 +1,43 @@
+<div class="container-fluid" style="margin-top: 50px;">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 "></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 ">
+            <div class="form-horizontal well text-center" > 
+                   
+                  <img class="img-circle" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png" style="">
+                  <div class="form-group">
+                    <div class="alert alert-danger" style="display: none;">
+                        <button type="button" class="close" >&times;</button>
+                        <strong>Error !!!</strong>
+                    </div>
+                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input data-toggle="tooltip" data-placement="right" title="enter username" class="inputLogin form-control" id="UserId" type="text" onkeydown="keyDown(event);" name="userId" />	
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                        <input class="inputLogin form-control" id="Password" type="password" onkeydown="keyDown(event);" 	name="password" />	
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10 text-left">
+                     <label>
+                          <input type="checkbox"> Remember me
+                        </label><br />
+                      <button class="btn btn-default" onclick="login()">OK</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="/public/js/login.js?<?php echo time();?>" type="text/javascript"></script>
+<script>        
+    _backurl = '<?php echo $this->backurl?>';
+</script>

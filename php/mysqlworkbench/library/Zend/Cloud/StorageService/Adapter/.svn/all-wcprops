@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter
+END
+Nirvanix.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter/Nirvanix.php
+END
+FileSystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter/FileSystem.php
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter/WindowsAzure.php
+END
+Rackspace.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter/Rackspace.php
+END
+S3.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Cloud/StorageService/Adapter/S3.php
+END

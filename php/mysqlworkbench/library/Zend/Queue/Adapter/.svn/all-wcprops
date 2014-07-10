@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/Null.php
+END
+PlatformJobQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/PlatformJobQueue.php
+END
+Array.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/Array.php
+END
+Activemq.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/Activemq.php
+END
+AdapterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/AdapterInterface.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/Db.php
+END
+AdapterAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/AdapterAbstract.php
+END
+Memcacheq.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Queue/Adapter/Memcacheq.php
+END

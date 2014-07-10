@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception
+END
+InvalidPayload.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/InvalidPayload.php
+END
+InvalidTopic.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/InvalidTopic.php
+END
+InvalidAuthToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/InvalidAuthToken.php
+END
+QuotaExceeded.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/QuotaExceeded.php
+END
+ServerUnavailable.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/ServerUnavailable.php
+END
+InvalidRegistration.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/InvalidRegistration.php
+END
+InvalidToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/InvalidToken.php
+END
+DeviceQuotaExceeded.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Mobile/Push/Exception/DeviceQuotaExceeded.php
+END

@@ -1,0 +1,123 @@
+10
+
+dir
+39
+http://192.168.5.222:8888/svn/mysql/trunk/training/library/Zend/Feed/Reader/Extension
+http://192.168.5.222:8888/svn/mysql
+
+
+
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66e6b13e-0f4f-1e49-92e4-4d875f53c6ad
+
+Atom
+dir
+
+Content
+dir
+
+CreativeCommons
+dir
+
+DublinCore
+dir
+
+EntryAbstract.php
+file
+
+
+
+
+2014-03-10T07:21:53.807000Z
+9a3acbf8d4e923f4b72b105861b86b20
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4619
+
+FeedAbstract.php
+file
+
+
+
+
+2014-03-10T07:21:53.811000Z
+fd68b9af5365fa47704dee07f29ed635
+2013-09-30T02:49:34.111794Z
+2
+hanoi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4030
+
+Podcast
+dir
+
+Slash
+dir
+
+Syndication
+dir
+
+Thread
+dir
+
+WellFormedWeb
+dir
+

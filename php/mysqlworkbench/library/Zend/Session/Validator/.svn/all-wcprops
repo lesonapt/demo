@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Session/Validator
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Session/Validator/Interface.php
+END
+HttpUserAgent.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Session/Validator/HttpUserAgent.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Session/Validator/Abstract.php
+END

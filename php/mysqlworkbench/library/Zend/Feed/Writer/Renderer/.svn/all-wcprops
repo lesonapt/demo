@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Feed/Writer/Renderer
+END
+RendererInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Feed/Writer/Renderer/RendererInterface.php
+END
+RendererAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mysql/!svn/ver/2/trunk/training/library/Zend/Feed/Writer/Renderer/RendererAbstract.php
+END
